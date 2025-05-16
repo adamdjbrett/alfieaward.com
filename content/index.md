@@ -16,8 +16,8 @@ hero:
     text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
     show_button: true
     button1:
-      text: Home
-      url: "/"
+      text: Trophy
+      url: "#video"
     button2:
       text: Give Now
       url: https://givebutter.com/alfaward
@@ -41,11 +41,11 @@ section1:
     link below to attend the Monday September 23 award dinner at Breezes
     in Utica."
   button1:
-    text: Buy Tickets
-    url: https://givebutter.com/alfaward
-  button2:
-    text: Learn More
+    text: About Alfie
     url: "#about"
+#  button2:
+#    text: Learn More
+#    url: "#about"
 
 stickmaker:
   title: STICKMAKER
