@@ -1,0 +1,57 @@
+<div
+  id="container13"
+  data-scroll-id="educator"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style2 container columns full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+        {% if educator.image_left_side %}
+      <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img src="{{educator.image}}" alt="{{educator.title}}"
+          /></span>
+        </div>
+      </div>
+      <div>
+        <h2 class="style2">{{educator.title}}</h2>
+        {% for e in educator.article %}<p class="style3">{{e.text|markdown|safe}}</p>{% endfor %}
+        <ul class="style1 buttons">
+          <li>
+            <a href="{{educator.button.url}}" class="button n01" role="button"
+              ><svg aria-labelledby="buttons04-icon-1-title">
+                <title>Arrow Down (Light)</title>
+                <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
+              ><span class="label">{{educator.button.text}}</span></a
+            >
+          </li>
+        </ul>
+      </div>{% else %}      
+      <div>
+        <h2 class="style2">{{educator.title}}</h2>
+        {% for e in educator.article %}<p class="style3">{{e.text|markdown|safe}}</p>{% endfor %}
+        <ul class="style1 buttons">
+          <li>
+            <a href="{{educator.button.url}}" class="button n01" role="button"
+              ><svg aria-labelledby="buttons04-icon-1-title">
+                <title>Arrow Down (Light)</title>
+                <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
+              ><span class="label">{{educator.button.text}}</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img src="{{educator.image}}" alt="{{educator.title}}"
+          /></span>
+        </div>
+      </div>      
+      {% endif %}
+    </div>
+  </div>
+</div>

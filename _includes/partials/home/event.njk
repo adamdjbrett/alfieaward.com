@@ -1,0 +1,46 @@
+<div
+  id="container10"
+  data-scroll-id="details"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>{% for post in collections.awards | reverse | limit(1) %}
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h2 id="text13" class="style2">{{post.data.title}}</h2>
+      <h3 class="style1">{{post.data.description}}</h3>
+      <p id="text31" class="style3">
+        {{post.content|safe}}
+        <span class="p">
+          <strong>Date:</strong> {{post.data.event.date}}<br />
+          <strong>Time:</strong> {{post.data.event.time}}<br />
+          <strong>Location:</strong> {% for s in post.data.event.location %}
+          <br />{{s.info}} {% endfor %}
+          </span
+        >
+      </p>
+      <ul class="style1 buttons">
+        <li>
+          <a href="{{post.url}}" class="button n01" role="button"
+            ><svg aria-labelledby="buttons01-icon-1-title">
+              <title>Arrow Right (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
+            ><span class="label">Detail</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="/awards/"
+            class="button n02"
+            role="button"
+            ><svg aria-labelledby="buttons01-icon-2-title">
+              <title>Heart</title>
+              <use xlink:href="/assets/icons.svg#heart"></use></svg
+            ><span class="label">All Event</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>{% endfor %}
+</div>

@@ -1,0 +1,87 @@
+title: "Alfie Jacques Award"
+description: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
+image: "/assets/images/image01.jpg"
+language: "en"
+locale: en_US
+favicon: /img/logo.png
+url: "http://localhost:8080"
+metasocial:
+  - facebook: "https://www.facebook.com/"
+  - twitteruser: "@username"
+  - twitter: "https://x.com/user"
+formspree: "https://formspree.io/f/mzzzapep"
+
+navbar:
+  title: "Alfie Jacques Award"
+  list:
+    - nav: Home
+      url: /#
+    - nav: About
+      url: /#about
+    - nav: Stickmaker
+      url: /#stickmaker
+    - nav: Educator
+      url: /#educator
+    - nav: Goal
+      url: /#goal
+    - nav: Blog
+      url: /#blog
+  button:
+    title: Buy Tickets
+    url: "#"
+
+founding:
+  info: Alfie Jacques Ambassador Award
+  show_widget: true
+  title: Funding Goal
+  article:
+    - text: "The award ceremony will include a dinner where Alfie’s closest family and respected current and past team members and coaches of the Haudenosaunee lacrosse team, friends and sponsors of the event will gather. All travel expenses for the award recipient and one additional family member will be covered. During halftime of the World Box Lacrosse Games Finals, the recipient will receive the award publicly, and a brief video celebrating Alfie, the meaning of the award, and the recipient’s noteworthy qualifications for the Alfie Jacques Ambassador Award and the Alfie Jacques Youth scholarship winner will be shown."
+    - text: "This fundraiser is being supported by the [American Indian Law Alliance](https://aila.ngo). Their fiscal sponsor is the [Indigenous Values Initiative](https://indigenousvalues.org)"
+    - text: "**Donate by Mail**"
+    - text: "To send donations by check, please mail to:"
+    - text: "American Indian Law Alliance"
+    - text: "Alfie Jacques Ambassador Award"
+    - text: "305 Vine St. Suite #3, Liverpool, NY 13088"
+    - text: "Checks should be addressed to our fiscal sponsor the Indigenous Values Initiative."
+  button:
+    title: Giving Details
+    url: "#alfie"
+
+alfie:
+  logo: /assets/images/image01.jpg
+  image_left_side: true
+  info: "In honor and in memory of"
+  title: Alfie Jacques
+  image: /assets/images/image01.jpg
+  text: Please give generously to support this award.
+  button:
+    title: Give
+    url: https://givebutter.com/alfaward
+  button2:
+    title: Newsletter
+    url: "#newsletter"
+
+newsletter:
+  info: Newsletter
+  title: Stay in Touch
+  text: keep in touch with this initiative
+
+social:
+  twitter: https://twitter.com/ailanyc
+  facebook: https://www.facebook.com/americanindianlawalliance/
+  instagram: https://www.instagram.com/americanindianlawalliance/
+  web: https://aila.ngo
+  email: mailto:aila@aila.ngo
+
+copyrights:
+  text: Maintained by
+  text1: Adam Dj Brett
+  text1_url: https://adamdjbrett.com
+
+author:
+  name: "Jhon Dhoe"
+  image: "/img/kimia-kazemi--gbBWj7KnnQ-unsplash.jpg"
+  about: "Illustration by kimia kazemi on Unsplash"
+  email: "info@adamdjbrett.com"
+  url: "https://www.adamdjbrett.com"
+  phone: "+123456789"

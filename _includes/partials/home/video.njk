@@ -1,0 +1,36 @@
+<div
+  id="video"
+  data-scroll-id="video"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style3 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h3 id="text-video-title" class="style1">{{video.info}}</h3>
+
+      <div class="award-video-container">
+        <div class="award-grid">
+          <div class="video-wrapper" style="--aspect-ratio: 4/3">
+            <iframe
+              src="{{video.media}}"
+              title="{{video.title}}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+
+          <div class="trophy-content">
+            <div class="trophy-description">
+              <h2 id="text-video-subtitle" class="style2">{{video.title}}</h2>
+              {% for v in video.text %}<p>{{v.info|markdown|safe}}</p>{% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

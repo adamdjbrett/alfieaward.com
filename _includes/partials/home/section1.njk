@@ -1,0 +1,84 @@
+<div id="container06" class="style3 container columns full screen">
+  <div class="wrapper">
+    <div
+      class="inner"
+      data-onvisible-trigger="1"
+      data-reorder="1,0"
+      data-reorder-breakpoint="medium"
+    >{% if section1.image_left_side %}
+
+      <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img
+              src="{{section1.image}}"
+              alt="{{section1.title}}"
+          /></span>
+        </div>
+      </div>
+      <div>
+        <h2 class="style2">{{section1.title}}</h2>
+        <p class="style3">{{section1.text|markdown|safe}}</p>
+        <ul class="style1 buttons small">
+          <li>
+            <a href="{{section1.button1.url}}" class="button n01" role="button"
+              ><svg aria-labelledby="buttons01-icon-1-title">
+                <title>Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label small">{{section1.button1.text}}</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="{{section1.button2.url}}"
+              class="button n02"
+              role="button"
+              ><svg aria-labelledby="buttons01-icon-2-title">
+                <title>Heart</title>
+                <use xlink:href="/assets/icons.svg#heart"></use></svg
+              ><span class="label small">{{section1.button2.text}}</span></a
+            >
+          </li>
+        </ul>
+      </div>{% else %}
+      <div>
+        <h2 class="style2">{{section1.title}}</h2>
+        <p class="style3">{{section1.text|markdown|safe}}</p>
+        <ul class="style1 buttons  small">
+          <li>
+            <a href="{{section1.button1.url}}" class="button n01" role="button"
+              ><svg aria-labelledby="buttons01-icon-1-title">
+                <title>Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label small">{{section1.button1.text}}</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="{{section1.button2.url}}"
+              class="button n02"
+              role="button"
+              ><svg aria-labelledby="buttons01-icon-2-title">
+                <title>Heart</title>
+                <use xlink:href="/assets/icons.svg#heart"></use></svg
+              ><span class="label small">{{section1.button2.text}}</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img
+              src="{{section1.image}}"
+              alt="{{section1.title}}"
+          /></span>
+        </div>
+      </div>{% endif %}
+    </div>
+  </div>
+</div>

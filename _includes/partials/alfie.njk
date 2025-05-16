@@ -1,0 +1,81 @@
+{% if show_alfie %}<div
+  id="container22"
+  data-scroll-id="alfie"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style3 container columns full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1"> {% if metadata.alfie.image_left_side %}
+      <div class="full">
+        <div id="image01" class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img src="{{metadata.alfie.image}}" alt="{{metadata.alfie.title}}"
+          /></span>
+        </div>
+      </div>
+      <div>
+        <h3 class="style1">{{metadata.alfie.info}}</h3>
+        <h2 class="style2">{{metadata.alfie.title}}</h2>
+        <p class="style3">{{metadata.alfie.text}}</p>
+        <ul class="style1 buttons">
+          <li>
+            <a
+              href="{{metadata.alfie.button.url}}"
+              class="button n01"
+              role="button"
+              ><svg aria-labelledby="buttons08-icon-1-title">
+                <title>Heart</title>
+                <use xlink:href="/assets/icons.svg#heart"></use></svg
+              ><span class="label">{{metadata.alfie.button.title}}</span></a
+            >
+          </li>
+          <li>
+            <a href="{{metadata.alfie.button2.url}}" class="button n02" role="button"
+              ><svg aria-labelledby="buttons08-icon-2-title">
+                <title id="buttons08-icon-2-title">Email</title>
+                <use xlink:href="/assets/icons.svg#email"></use></svg
+              ><span class="label">{{metadata.alfie.button2.title}}</span></a
+            >
+          </li>
+        </ul>
+      </div>{% else %}
+      
+      <div>
+        <h3 class="style1">{{metadata.alfie.info}}</h3>
+        <h2 class="style2">{{metadata.alfie.title}}</h2>
+        <p class="style3">{{metadata.alfie.text}}</p>
+        <ul class="style1 buttons">
+          <li>
+            <a
+              href="{{metadata.alfie.button.url}}"
+              class="button n01"
+              role="button"
+              ><svg aria-labelledby="buttons08-icon-1-title">
+                <title>Heart</title>
+                <use xlink:href="/assets/icons.svg#heart"></use></svg
+              ><span class="label">{{metadata.alfie.button.title}}</span></a
+            >
+          </li>
+          <li>
+            <a href="{{metadata.alfie.button2.url}}" class="button n02" role="button"
+              ><svg aria-labelledby="buttons08-icon-2-title">
+                <title id="buttons08-icon-2-title">Email</title>
+                <use xlink:href="/assets/icons.svg#email"></use></svg
+              ><span class="label">{{metadata.alfie.button2.title}}</span></a
+            >
+          </li>
+        </ul>
+      </div>      <div class="full">
+        <div id="image01" class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img src="{{metadata.alfie.image}}" alt="{{metadata.alfie.title}}"
+          /></span>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}

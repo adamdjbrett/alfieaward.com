@@ -1,0 +1,67 @@
+<div
+  id="container14"
+  data-scroll-id="intro"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style4 container columns full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame deferred"
+            ><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDI1NjAiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjI1NjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiMyNjFhMGYiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="{{hero.image}}" alt="{{hero.title}}"
+          /></span>
+        </div>
+      </div>
+      <div>
+        <h3 class="style1">{{hero.info}}</h3>
+        <h1 class="style2">{{hero.title}}</h1>
+        {% if hero.show_button %}
+        <ul id="buttons10" class="style1 buttons">
+          {% for b in hero.button %}
+          <li>
+            <a href="{{b.url}}" class="button n01" role="button"
+              ><svg aria-labelledby="buttons10-icon-1-title">
+                <title>{{b.text}}</title>
+                <use xlink:href="/assets/icons.svg#check"></use></svg
+              ><span class="label">{{b.text}}</span></a
+            >
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        <p class="style3"><span class="p">{{hero.article.text }}</span></p>
+        {% if hero.article.show_button %}
+        <ul class="style1 buttons">
+          <li>
+            <a
+              href="{{hero.article.button1.url}}"
+              class="button n01"
+              role="button"
+              ><svg aria-labelledby="buttons01-icon-1-title">
+                <title>Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label">{{hero.article.button1.text}}</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="{{hero.article.button2.url}}"
+              class="button n02"
+              role="button"
+              ><svg aria-labelledby="buttons01-icon-2-title">
+                <title>Heart</title>
+                <use xlink:href="/assets/icons.svg#heart"></use></svg
+              ><span class="label">{{hero.article.button2.text}}</span></a
+            >
+          </li>
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<div
+  id="container-content-01"
+  data-scroll-id="blog"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>{% for post in collections.posts | reverse | limit(1) %}
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h3 class="style1">{{post.data.description}}</h3>
+      <h2 class="style2">{{post.data.title}}</h2>
+      <p class="style3">
+        <span class="p"
+          >{{post.content|safe}}
+      </p>
+      <ul class="style1 buttons">
+        <li>
+          <a href="{{post.url}}" class="button n01" role="button"
+            ><svg aria-labelledby="buttons01-icon-1-title">
+              <title>Arrow Right (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
+            ><span class="label">Read More</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="/blog"
+            class="button n02"
+            role="button"
+            ><svg aria-labelledby="buttons01-icon-2-title">
+              <title>Heart</title>
+              <use xlink:href="/assets/icons.svg#heart"></use></svg
+            ><span class="label">All Post</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>{% endfor %}
+</div>

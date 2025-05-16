@@ -1,0 +1,29 @@
+<div
+  id="container05"
+  data-scroll-id="about"
+  data-scroll-behavior="center"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner">
+      <h3 id="text33" class="style1">{{article.title}}</h3>
+      <img class="img-cover" src="{{image}}" />
+      <div class="style3"><div class="p"
+          >{{content|markdown|safe}}</div></div>
+      <ul class="style1 buttons">
+        {% for b in article.button %}
+        <li>
+          <a href="{{b.url}}" class="button n01" role="button"
+            ><svg aria-labelledby="buttons06-icon-1-title">
+              <title>Arrow Down (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
+            ><span class="label">{{b.text}}</span></a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
