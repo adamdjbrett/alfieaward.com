@@ -4,7 +4,9 @@ image: "/assets/images/image01.jpg"
 language: "en"
 locale: en_US
 favicon: /img/logo.png
-url: "http://localhost:8080"
+#url: "http://localhost:8080"
+url: "https://alfieaward.netlify.app" #netlify
+#url: "https://alfieaward.com"
 metasocial:
   - facebook: "https://www.facebook.com/"
   - twitteruser: "@username"
@@ -15,7 +17,7 @@ navbar:
   title: "Alfie Jacques Award"
   list:
     - nav: Home
-      url: /#
+      url: /
     - nav: About
       url: /#about
     - nav: Stickmaker
@@ -28,7 +30,7 @@ navbar:
       url: /#blog
   button:
     title: Buy Tickets
-    url: "#"
+    url: "https://givebutter.com/alfaward"
 
 founding:
   info: Alfie Jacques Ambassador Award

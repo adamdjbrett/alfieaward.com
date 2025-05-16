@@ -17,15 +17,15 @@ hero:
     show_button: true
     button1:
       text: Home
-      url: "#"
+      url: "/"
     button2:
       text: Give Now
       url: https://givebutter.com/alfaward
 
 video:
   info: Featured Video
-  media: "https://www.youtube.com/embed/rEUABT38RYU?si=AkgWRftJIs1VW5X6"
-  title: "Trophy and video"
+  media: "https://youtu.be/xGmmjTv3670"
+  title: "Trophy"
   text:
     - info: "The Alfie Jacques Ambassador Award was carved from soapstone by **[Ryan Sandy](https://www.instagram.com/ryan_sandy_sculptures/)** of Six Nations."
 
@@ -42,7 +42,7 @@ section1:
     in Utica."
   button1:
     text: Buy Tickets
-    url: /
+    url: https://givebutter.com/alfaward
   button2:
     text: Learn More
     url: "#about"
