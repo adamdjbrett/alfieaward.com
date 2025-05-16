@@ -1,0 +1,383 @@
+#local_backend: true
+backend:
+  name: git-gateway
+  repo: adamdjbrett/alfieaward.com
+  branch: main 
+
+media_folder: 'public/assets/images'
+public_folder: "/assets/images"
+
+collections:
+  - name: "site_metadata"
+    label: "Site Configuration"
+    editor:
+      preview: false 
+    files:
+      - file: "_data/metadata.yaml"
+        label: "Metadata Website"
+        name: "metadata"
+        format: "yaml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Language", name: "language", widget: "string" }
+          - { label: "Locale", name: "locale", widget: "string" }
+          - { label: "Favicon", name: "favicon", widget: "image" }
+          - { label: "URL", name: "url", widget: "string" }
+          - label: "Meta Social"
+            name: "metasocial"
+            widget: "list"
+            fields:
+              - { label: "Facebook", name: "facebook", widget: "string", required: false }
+              - { label: "Twitter User", name: "twitteruser", widget: "string", required: false }
+              - { label: "Twitter", name: "twitter", widget: "string", required: false }
+          - { label: "Formspree", name: "formspree", widget: "string" }
+          - label: "Navbar"
+            name: "navbar"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "List"
+                name: "list"
+                widget: "list"
+                fields:
+                  - { label: "Nav", name: "nav", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Founding"
+            name: "founding"
+            widget: "object"
+            fields:
+              - { label: "Info", name: "info", widget: "string" }
+              - { label: "Show Widget", name: "show_widget", widget: "boolean" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Article"
+                name: "article"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "text" }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Alfie"
+            name: "alfie"
+            widget: "object"
+            fields:
+              - { label: "Logo", name: "logo", widget: "image" }
+              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
+              - { label: "Info", name: "info", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Text", name: "text", widget: "text" }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Button 2"
+                name: "button2"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Newsletter"
+            name: "newsletter"
+            widget: "object"
+            fields:
+              - { label: "Info", name: "info", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "string" }
+          - label: "Social"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Twitter", name: "twitter", widget: "string", required: false }
+              - { label: "Facebook", name: "facebook", widget: "string", required: false }
+              - { label: "Instagram", name: "instagram", widget: "string", required: false }
+              - { label: "Web", name: "web", widget: "string", required: false }
+              - { label: "Email", name: "email", widget: "string", required: false }
+          - label: "Copyrights"
+            name: "copyrights"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Text1", name: "text1", widget: "string" }
+              - { label: "Text1 URL", name: "text1_url", widget: "string" }
+          - label: "Author"
+            name: "author"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "About", name: "about", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string", required: false }
+
+  - name: "home"
+    label: "Homepage"
+    editor:
+      preview: false
+    files:
+      - file: "content/index.md"
+        label: "Home Page"
+        name: "index"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Image", name: "image", widget: "image" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Info", name: "info", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Show Button", name: "show_button", widget: "boolean" }
+              - label: "Button"
+                name: "button"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Article"
+                name: "article"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "text" }
+                  - { label: "Show Button", name: "show_button", widget: "boolean" }
+                  - label: "Button 1"
+                    name: "button1"
+                    widget: "object"
+                    fields:
+                      - { label: "Text", name: "text", widget: "string" }
+                      - { label: "URL", name: "url", widget: "string" }
+                  - label: "Button 2"
+                    name: "button2"
+                    widget: "object"
+                    fields:
+                      - { label: "Text", name: "text", widget: "string" }
+                      - { label: "URL", name: "url", widget: "string" }
+          - label: "Video"
+            name: "video"
+            widget: "object"
+            fields:
+              - { label: "Info", name: "info", widget: "string" }
+              - { label: "Media", name: "media", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Text"
+                name: "text"
+                widget: "list"
+                fields:
+                  - { label: "Info", name: "info", widget: "markdown" }
+          - label: "Section 1"
+            name: "section1"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Text", name: "text", widget: "markdown" }
+              - label: "Button 1"
+                name: "button1"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Button 2"
+                name: "button2"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Stickmaker"
+            name: "stickmaker"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Article"
+                name: "article"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "markdown" }
+              - label: "Button"
+                name: "button"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Educator"
+            name: "educator"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Article"
+                name: "article"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "markdown" }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - { label: "Show Founding", name: "show_founding", widget: "boolean" }
+          - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean" }
+          - { label: "Show Alfie", name: "show_alfie", widget: "boolean" }
+          - label: "Article"
+            name: "article"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Button"
+                name: "button"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+
+  - name: "awards"
+    label: "Awards"
+    folder: "content/award"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - label: "Event"
+        name: "event"
+        widget: "object"
+        fields:
+          - { label: "Date", name: "date", widget: "string" }
+          - { label: "Time", name: "time", widget: "string" }
+          - label: "Location"
+            name: "location"
+            widget: "list"
+            fields:
+              - { label: "Info", name: "info", widget: "string" }
+      - { label: "Publication Date", name: "date", widget: "datetime" }
+      - { label: "Show Founding", name: "show_founding", widget: "boolean" }
+      - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean" }
+      - { label: "Show Alfie", name: "show_alfie", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Publication Date", name: "date", widget: "datetime" }
+      - { 
+          label: "Tags", 
+          name: "tags", 
+          widget: "string", 
+          hint: "Separate multiple tags with spaces" 
+        }
+      - { label: "Show Founding", name: "show_founding", widget: "boolean", default: true }
+      - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: true }
+      - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "gallery"
+    label: "Gallery"
+    folder: "content/gallery"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Date", name: "date", widget: "datetime" }
+
+
+  - name: "awa"
+    label: "Awards Setup"
+    editor:
+      preview: false 
+    files:
+      - file: "content/awards.md"
+        label: "Awards Page Setup"
+        name: "awards"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - { label: "Size", name: "size", widget: "number", value_type: "int" }
+              - { label: "Reverse", name: "reverse", widget: "boolean" }
+          - { label: "Show Founding", name: "show_founding", widget: "boolean", default: false }
+          - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
+          - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
+
+
+  - name: "blogpages"
+    label: "Blog Setup"
+    editor:
+      preview: false 
+    files:
+      - file: "content/blog.md"
+        label: "Blog Page Setup"
+        name: "blogSetup"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - { label: "Size", name: "size", widget: "number", value_type: "int" }
+              - { label: "Reverse", name: "reverse", widget: "boolean" }
+          - { label: "Show Founding", name: "show_founding", widget: "boolean", default: false }
+          - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
+          - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
+
+
+  - name: "galerypages"
+    label: "Gallery Setup"
+    editor:
+      preview: false 
+    files:
+      - file: "content/gallery.md"
+        label: "Gallery Page Setup"
+        name: "gallerySetup"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Show Founding", name: "show_founding", widget: "boolean", default: false }
+          - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
+          - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
+
+
