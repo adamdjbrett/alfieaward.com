@@ -1,0 +1,38 @@
+<div id="gallery-section" class="container style6 default full screen">
+  <div class="wrapper">
+    <div class="inner">
+      <h2 class="style2" style="text-align: center">Gallery</h2>
+      <div class="custom-gallery">{% for post in collections.galleries | reverse | limit(6) %}
+        <div class="gallery-item">
+          <img
+            src="{{post.data.image}}"
+            alt="{{post.data.title}}"
+            class="gallery-img"
+            data-full="{{post.data.image}}"
+          />
+        </div>
+{% endfor %}
+
+
+      </div>
+      <ul class="style1 buttons">
+        <li>
+          <a href="/gallery" class="button n01" role="button"
+            ><svg aria-labelledby="buttons06-icon-1-title">
+              <title>Arrow Down (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
+            ><span class="label">View Gallery</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="gallery-modal" class="gallery-modal">
+  <span class="gallery-modal-close">&times;</span>
+  <div class="modal-container">
+    <img class="gallery-modal-content" id="gallery-modal-img" alt="" />
+    <div id="gallery-modal-caption"></div>
+  </div>
+</div>

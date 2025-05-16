@@ -1,0 +1,30 @@
+{% if show_founding %}<div
+  id="container02"
+  data-scroll-id="goal"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h3 class="style1">{{metadata.founding.info}}</h3>
+      <h2 class="style2">{{metadata.founding.title}}</h2>
+      <p class="style3">
+        {% for c in metadata.founding.article %}<span class="p"
+          >{{c.text | markdown |safe}}</span
+        >{% endfor %}
+      </p>
+      <ul class="style1 buttons">
+        <li>
+          <a href="{{metadata.founding.button.url}}" class="button n01" role="button"
+            ><svg aria-labelledby="buttons03-icon-1-title">
+              <title>Arrow Down (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
+            ><span class="label">{{ metadata.founding.button.title}}</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>{% endif %}

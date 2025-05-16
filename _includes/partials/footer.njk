@@ -1,0 +1,12 @@
+<footer class="py-4 mt-5" style="background: var(--dark-green); color: var(--cream);">
+<div class="container text-center">
+<img src="{{metadata.footer.logo}}" alt="{{metadata.title}}" width="40" height="40" class="mb-2 footer-logo">
+<p class="mb-2">&copy; <span id="tahun"></span> {{metadata.footer.text}} <a href="{{metadata.footer.text1_url}}" class="text-white">{{metadata.footer.text1}}</a>.</p>
+<div>
+</div>
+</div>
+</footer>
+<script src="/assets/main.js"></script>
+<script type="text/javascript">document.getElementById("tahun").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.language }}">
+  <head>
+    {% include "partials/seo.njk" %}
+  </head>
+  <body class="is-loading">
+    <div id="wrapper">
+      <a href="#start" class="visuall">Skip to main content</a>
+      {% include "partials/nav.njk" %}
+      <div id="main">
+        <div class="inner" id="visuall">
+          <section id="home-section">
+            {{content|safe}}{% include
+            "partials/founding.njk" %} {% include "partials/alfie.njk" %} {%
+            include "partials/newsletter.njk" %}
+          </section>
+          {% include "partials/support.njk" %}
+        </div>
+      </div>
+    </div>
+    <script src="/assets/main.js"></script>
+  </body>
+</html>

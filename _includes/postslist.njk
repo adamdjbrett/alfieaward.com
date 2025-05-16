@@ -1,0 +1,16 @@
+{% for post in postslist | reverse %}<div
+  id="container-content-01"
+  data-scroll-id="blog"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h3 class="style1">{{post.data.description}}</h3>
+      <h2 class="style2">{{post.data.title}}</h2>
+    </div>
+  </div>
+</div>  {% endfor %}  
+    

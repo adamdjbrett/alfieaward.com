@@ -1,0 +1,48 @@
+---
+layout: base.njk
+---
+<div
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h2 id="text13" class="style2">{{title}}</h2>
+      <h3 class="style1">{{description}}</h3>
+      <p id="text31" class="style3">
+        {{content|safe}}
+        <span class="p">
+          <strong>Date:</strong> {{event.date}}<br />
+          <strong>Time:</strong> {{event.time}}<br />
+          <strong>Location:</strong> {% for s in event.location %}
+          <br />{{s.info}} {% endfor %}
+          </span
+        >
+      </p>
+{%- set previousPost = collections.awards | getPreviousCollectionItem %}
+{%- set nextPost = collections.awards | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+      <ul class="style1 buttons">
+        {%- if previousPost %}<li>
+          <a href="{{ previousPost.url }}" class="button n01" role="button"
+            ><svg aria-labelledby="buttons01-icon-1-title">
+              <title>Arrow Right (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
+            ><span class="label">PREVIOUS</span></a
+          >
+        </li>{% endif %}
+        {%- if nextPost %}<li>
+          <a href="{{nextPost.url}}" class="button n01" role="button"
+            ><svg aria-labelledby="buttons01-icon-1-title">
+              <title>Arrow Right (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
+            ><span class="label">NEXT</span></a
+          >
+        </li>{% endif %}
+       {%- endif %}
+      </ul>
+    </div>
+  </div>
+</div>

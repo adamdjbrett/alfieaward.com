@@ -1,0 +1,67 @@
+<div
+  id="container12"
+  class="style3 container columns full screen"
+  data-scroll-id="stickmaker"
+>
+  <div class="wrapper">
+    <div
+      class="inner"
+      data-onvisible-trigger="1"
+      data-reorder="1,0"
+      data-reorder-breakpoint="medium"
+    >{% if stickmaker.image_left_side %}
+      <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img
+              src="{{stickmaker.image}}"
+              alt="{{stickmaker.title}}"
+          /></span>
+        </div>
+      </div>
+      <div>
+        <h2 class="style2">{{stickmaker.title}}</h2>
+        {% for s in stickmaker.article %}<p id="text38" class="style3">{{s.text|markdown|safe}}</p>{% endfor %}
+        <ul id="buttons07" class="style1 buttons">
+          {% for b in stickmaker.button %}<li>
+            <a href="{{b.url}}" class="button n01" role="button"
+              ><svg aria-labelledby="buttons07-icon-1-title">
+                <title>Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label">{{b.text}}</span></a
+            >
+          </li>{% endfor %}
+        </ul>
+      </div>{% else %}
+      
+      <div>
+        <h2 id="text06" class="style2">{{stickmaker.title}}</h2>
+        {% for s in stickmaker.article %}<p id="text38" class="style3">{{s.text|markdown|safe}}</p>{% endfor %}
+        <ul id="buttons07" class="style1 buttons">
+          {% for b in stickmaker.button %}<li>
+            <a href="{{b.url}}" class="button n01" role="button"
+              ><svg aria-labelledby="buttons07-icon-1-title">
+                <title>Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label">{{b.text}}</span></a
+            >
+          </li>{% endfor %}
+        </ul>
+      </div>
+      <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame"
+            ><img
+              src="{{stickmaker.image}}"
+              alt="{{stickmaker.title}}"
+          /></span>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

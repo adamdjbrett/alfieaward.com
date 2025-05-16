@@ -1,0 +1,114 @@
+{% if show_newsletter %}<div
+  id="container04"
+  data-scroll-id="newsletter"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h3 class="style1">{{metadata.newsletter.info}}</h3>
+      <h2 id="text03" class="style2">{{metadata.newsletter.title}}</h2>
+      <p id="text01" class="style3">{{metadata.newsletter.text}}</p>
+      <form id="form01" method="post" action="{{formspree}}">
+        <div class="inner">
+          <div class="field">
+            <input
+              type="email"
+              name="email"
+              id="form01-email"
+              placeholder="Email"
+              maxlength="128"
+              required
+            />
+          </div>
+          <div class="actions">
+            <button type="submit">
+              <svg aria-labelledby="form01-submit-icon-title">
+                <title id="form01-submit-icon-title">Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label">Submit</span>
+            </button>
+          </div>
+        </div>
+        <input type="hidden" name="id" value="form01" />
+      </form>
+      <ul id="icons01" class="style1 icons">
+        <li>
+          <a class="n01" href="{{metadata.social.twitter}}" role="button">
+            <svg aria-labelledby="icons01-icon-1-title">
+              <title id="icons01-icon-1-title">Twitter</title>
+              <use xlink:href="/assets/icons.svg#twitter"></use>
+            </svg>
+            <span class="label">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a class="n02" href="{{metadata.social.facebook}}" role="button">
+            <svg aria-labelledby="icons01-icon-2-title">
+              <title id="icons01-icon-2-title">Facebook</title>
+              <use xlink:href="/assets/icons.svg#facebook"></use>
+            </svg>
+            <span class="label">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a class="n03" href="{{metadata.social.instagram}}" role="button">
+            <svg aria-labelledby="icons01-icon-3-title">
+              <title id="icons01-icon-3-title">Instagram</title>
+              <use xlink:href="/assets/icons.svg#instagram"></use>
+            </svg>
+            <span class="label">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a class="n04" href="{{metadata.social.web}}" role="button">
+            <svg aria-labelledby="icons01-icon-4-title">
+              <title id="icons01-icon-4-title">Globe</title>
+              <use xlink:href="/assets/icons.svg#globe"></use>
+            </svg>
+            <span class="label">Globe</span>
+          </a>
+        </li>
+        <li>
+          <a class="n05" href="{{metadata.social.email}}" role="button">
+            <svg aria-labelledby="icons01-icon-5-title">
+              <title id="icons01-icon-5-title">Email</title>
+              <use xlink:href="/assets/icons.svg#email-alt"></use>
+            </svg>
+            <span class="label">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p id="text14" class="style3">
+        {{metadata.copyrights.text}}
+        <a href="{{metadata.copyrights.text1_url}}"
+          >{{metadata.copyrights.text1}}</a
+        >.
+      </p>
+    </div>
+  </div>
+</div>{% else %}
+<div
+  id="container04"
+  data-scroll-id="newsletter"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+            <p id="text14" class="style3">
+        {{metadata.copyrights.text}}
+        <a href="{{metadata.copyrights.text1_url}}"
+          >{{metadata.copyrights.text1}}</a
+        >.
+      </p>
+    </div>
+  </div>
+</div>
+      {% endif %}

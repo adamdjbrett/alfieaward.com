@@ -1,0 +1,14 @@
+<nav id="navbar" class="navbar">
+  <div class="navbar-container">
+    <a href="#home" class="navbar-logo">{{metadata.navbar.title}}</a>
+    <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+      {% for n in metadata.navbar.list %}<li><a href="{{n.url}}" class="nav-link">{{n.nav}}</a></li>{% endfor %}
+      <li><a href="{{metadata.navbar.button.url}}" class="nav-link nav-btn text-white">{{metadata.navbar.button.title}}</a></li>
+    </ul>
+  </div>
+</nav>
