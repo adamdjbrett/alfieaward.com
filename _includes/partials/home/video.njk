@@ -26,7 +26,7 @@
           <div class="trophy-content">
             <div class="trophy-description">
               <h2 id="text-video-subtitle" class="style2">{{video.title}}</h2>
-              {% for v in video.text %}<p>{{v.info|markdown|safe}}</p>{% endfor %}
+             <p class="style3">{% for v in video.text %}<span class="p gede">{{v.info|markdown|safe}}</span>{% endfor %}</p>
             </div>
           </div>
         </div>

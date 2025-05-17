@@ -10,10 +10,7 @@
     <div class="inner" data-onvisible-trigger="1">
       <h3 class="style1">{{post.data.description}}</h3>
       <h2 class="style2">{{post.data.title}}</h2>
-      <p class="style3">
-        <span class="p gede"
-          >{{post.content|safe}}
-      </p>
+      <div class="style3">{{post.content|safe}}</div>
       <ul class="style1 buttons">
         <li>
           <a href="{{post.url}}" class="button n01" role="button"
