@@ -31,7 +31,7 @@ video:
 
 section1:
   title: Sid Jamieson
-  image_left_side: false
+  image_left_side: true
   image: /assets/images/image04.jpg
   text: "Sid Jamieson, the first Indigenous NCAA head coach and first head
     coach of the Haudenosaunee Nationals, has been selected as the
@@ -41,8 +41,8 @@ section1:
     link below to attend the Monday September 23 award dinner at Breezes
     in Utica."
   button1:
-    text: Buy Tickets
-    url: https://givebutter.com/alfaward
+    text: News
+    url: "/#blog"
   button2:
     text: Learn More
     url: "#about"
