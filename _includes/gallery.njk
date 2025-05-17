@@ -1,11 +1,11 @@
 ---
 layout: base.njk
 ---
-<div id="gallerys" class="container style6 default full screen">
+<div id="gallerys" class="container style3 default full screen">
   <div class="wrapper">
     <div class="inner">
       <h2 class="style2" style="text-align: center">{{title}}</h2>
-      <div class="custom-gallery">{% for post in collections.galleries | reverse | limit(6) %}
+      <div class="custom-gallery">{% for post in collections.galleries | reverse %}
         <div class="gallery-item">
           <img
             src="{{post.data.image}}"
