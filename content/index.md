@@ -5,7 +5,7 @@ description: "Please support this new initiative to honor the legacy of the Haud
 image: /assets/images/image06.jpg
 
 hero:
-  info: Introducing
+  info: The Inaugural Alfie Jacques Ambassador Award
   title: Alfie Jacques Ambassador Award
   image: /assets/images/image02.jpg
   show_button: true
@@ -16,15 +16,15 @@ hero:
     text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
     show_button: true
     button1:
-      text: Home
-      url: "/"
+      text: Trophy
+      url: "#video"
     button2:
       text: Give Now
       url: https://givebutter.com/alfaward
 
 video:
   info: Featured Video
-  media: "https://youtu.be/xGmmjTv3670"
+  media: "https://www.youtube.com/embed/xGmmjTv3670?si=I5XTo9PkboPpiB83"
   title: "Trophy"
   text:
     - info: "The Alfie Jacques Ambassador Award was carved from soapstone by **[Ryan Sandy](https://www.instagram.com/ryan_sandy_sculptures/)** of Six Nations."
@@ -34,7 +34,7 @@ section1:
   image_left_side: true
   image: /assets/images/image04.jpg
   text: "Sid Jamieson, the first Indigenous NCAA head coach and first head
-    coach of the Haudenosaunee Nationals, has been selected as the
+    coach of the Haudenosaunee Nationals, was selected as the
     inaugural recipient of the
     **[Alfie Jacques Ambassador Award](#intro)**. The Award will be presented during the World Indoor Lacrosse
     Championships in Utica, N.Y., on Sunday, Sept. 22, 2024. Use the the
@@ -42,10 +42,13 @@ section1:
     in Utica."
   button1:
     text: News
-    url: "/#blog"
+    url: "#blog"
   button2:
-    text: Learn More
+    text: About Alfie
     url: "#about"
+#  button2:
+#    text: Learn More
+#    url: "#about"
 
 stickmaker:
   title: STICKMAKER
@@ -77,6 +80,7 @@ article:
     - text: Stickmaker
       url: "#stickmaker"
 ---
+### STICKMAKER, COACH, EDUCATOR
 
 Alfie was known as a world-class stickmaker. He was also a
 coach, speaker, educator, and Ambassador for lacrosse called

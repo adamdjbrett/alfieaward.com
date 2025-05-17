@@ -4,9 +4,9 @@ image: "/assets/images/image01.jpg"
 language: "en"
 locale: en_US
 favicon: /img/logo.png
+url: "https://alfieaward.com"
 #url: "http://localhost:8080"
-url: "https://alfieaward.netlify.app" #netlify
-#url: "https://alfieaward.com"
+#url: "https://alfieaward.netlify.app" #netlify
 metasocial:
   - facebook: "https://www.facebook.com/"
   - twitteruser: "@username"
@@ -42,11 +42,11 @@ founding:
     - text: "**Donate by Mail**"
     - text: "To send donations by check, please mail to:"
     - text: "American Indian Law Alliance"
-    - text: "Alfie Jacques Ambassador Award"
+    - text: "c/o Alfie Jacques Ambassador Award"
     - text: "305 Vine St. Suite #3, Liverpool, NY 13088"
     - text: "Checks should be addressed to our fiscal sponsor the Indigenous Values Initiative."
   button:
-    title: Giving Details
+    title: Email List
     url: "#alfie"
 
 alfie:
