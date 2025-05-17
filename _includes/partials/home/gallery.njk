@@ -1,12 +1,12 @@
-<div id="gallery-section" class="container style6 default full screen teal">
+<div id="gallery-section" class="container style3 default full screen purple">
   <div class="wrapper">
     <div class="inner">
       <h2 class="style2" style="text-align: center">Gallery</h2>
-      <div class="custom-gallery">{% for post in collections.galleries | reverse | limit(6) %}
+      <div class="custom-gallery">{% for post in collections.galleries | reverse | limit(22) %}
         <div class="gallery-item">
           <img
             src="{{post.data.image}}"
-            alt="{{post.data.title}}"
+            alt="{{post.data.title}} {{metadata.image_credit}}"
             class="gallery-img"
             data-full="{{post.data.image}}"
           />
@@ -15,7 +15,7 @@
 
 
       </div>
-      <ul class="style1 buttons">
+      <ul class="style1 buttons custom-gallery">
         <li>
           <a href="/gallery" class="button n01" role="button"
             ><svg aria-labelledby="buttons06-icon-1-title">
