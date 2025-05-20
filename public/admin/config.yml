@@ -6,7 +6,8 @@ backend:
 
 media_folder: 'public/assets/images'
 public_folder: "/assets/images"
-
+logo_url: https://alfieaward.com/admin/logo.png
+#logo_url: http://localhost:8080/admin/logo.png
 collections:
   - name: "site_metadata"
     label: "Site Configuration"
