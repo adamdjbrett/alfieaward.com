@@ -4,8 +4,8 @@ image: "/assets/images/image01.jpg"
 language: "en"
 locale: en_US
 favicon: /img/logo.png
-url: "https://alfieaward.com"
-#url: "http://localhost:8080"
+#url: "https://alfieaward.com"
+url: "http://localhost:8080"
 #url: "https://alfieaward.netlify.app" #netlify
 metasocial:
   - facebook: "https://www.facebook.com/"
@@ -13,6 +13,7 @@ metasocial:
   - twitter: "https://x.com/user"
 formspree: "https://formspree.io/f/mzzzapep"
 
+#Navigation
 navbar:
   title: "Alfie Jacques Award"
   list:
@@ -20,24 +21,22 @@ navbar:
       url: /
     - nav: About
       url: /#about
-    - nav: Stickmaker
-      url: /#stickmaker
-    - nav: Educator
-      url: /#educator
-    - nav: Goal
+    - nav: Past Recipient
+      url: /#sid-jamieson
+    - nav: The Trophy
+      url: /#trophy
+    - nav: Support
       url: /#goal
-    - nav: Blog
-      url: /#blog
   button:
     title: Buy Tickets
     url: "https://givebutter.com/alfaward"
 
 founding:
-  info: Alfie Jacques Ambassador Award
+  #info: Alfie Jacques Ambassador Award
   show_widget: true
   title: Funding Goal
   article:
-    - text: "The award ceremony will include a dinner where Alfie’s closest family and respected current and past team members and coaches of the Haudenosaunee lacrosse team, friends and sponsors of the event will gather. All travel expenses for the award recipient and one additional family member will be covered. During halftime of the World Box Lacrosse Games Finals, the recipient will receive the award publicly, and a brief video celebrating Alfie, the meaning of the award, and the recipient’s noteworthy qualifications for the Alfie Jacques Ambassador Award and the Alfie Jacques Youth scholarship winner will be shown."
+    - text: "The award ceremony will include a dinner where Alfie’s closest family, friends and supporters of this mission will gather. The event will include marketing, promotional videos and an Alfie Jacques Youth scholarship."
     - text: "This fundraiser is being supported by the [American Indian Law Alliance](https://aila.ngo). Their fiscal sponsor is the [Indigenous Values Initiative](https://indigenousvalues.org)"
     - text: "**Donate by Mail**"
     - text: "To send donations by check, please mail to:"
