@@ -41,7 +41,6 @@ Increase Font Size on: STICKMAKER, COACH, EDUCATOR (font size should match the T
 - Trophy
     - make trophy work in the menu
 
-# CHANGELOG
 ## Footer
 bottom of the page
 in the purple with the ALFIE logo that is in white
