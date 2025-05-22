@@ -1368,6 +1368,12 @@ form .actions button:disabled {
 	object-position: center;
 	width: 100% !important;
 }
+.image.stylev1 img {
+	height: 100% !important;
+	object-fit: cover;
+	object-position: center;
+	width: 100% !important;
+}
 
 .image.style100 img {
 	height: 100% !important;
@@ -1746,6 +1752,14 @@ form .actions button:disabled {
 }
 
 #container14 > .wrapper > .inner > :nth-child(2) {
+	width: calc(50% + (var(--gutters) / 2));
+}
+
+#container140 > .wrapper > .inner > :nth-child(1) {
+	width: calc(50% + (var(--gutters) / 2));
+}
+
+#container140 > .wrapper > .inner > :nth-child(2) {
 	width: calc(50% + (var(--gutters) / 2));
 }
 

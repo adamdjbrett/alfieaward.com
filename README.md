@@ -2,6 +2,13 @@
 
 Official site for [https://www.alfieawards.com](https://www.alfieawards.com)
 
+
+# CHANGELOG
+
+Award Receipent Features with published true / false
+to edit this section on `content/award-receipent/*.md`
+
+
 # DONE
 ## Decrease font size on : 
 1. Alfie Jacques Ambassador Award 
