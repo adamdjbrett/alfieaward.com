@@ -140,9 +140,16 @@ collections:
             name: "hero"
             widget: "object"
             fields:
+              - { label: "Info", name: "info", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Show Button", name: "show_button", widget: "boolean" }
+              - label: "Button"
+                name: "button"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
               - label: "Article"
                 name: "article"
                 widget: "object"
@@ -165,6 +172,7 @@ collections:
             name: "video"
             widget: "object"
             fields:
+              - { label: "Info", name: "info", widget: "string" }
               - { label: "Media", name: "media", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - label: "Text"
@@ -180,10 +188,62 @@ collections:
               - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Text", name: "text", widget: "markdown" }
+              - label: "Button 1"
+                name: "button1"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Button 2"
+                name: "button2"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Stickmaker"
+            name: "stickmaker"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Article"
+                name: "article"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "markdown" }
+              - label: "Button"
+                name: "button"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Educator"
+            name: "educator"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Article"
+                name: "article"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "markdown" }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - { label: "Show Founding", name: "show_founding", widget: "boolean" }
+          - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean" }
+          - { label: "Show Alfie", name: "show_alfie", widget: "boolean" }
           - label: "Article"
             name: "article"
             widget: "object"
             fields:
+              - { label: "Title", name: "title", widget: "string" }
               - label: "Button"
                 name: "button"
                 widget: "list"
