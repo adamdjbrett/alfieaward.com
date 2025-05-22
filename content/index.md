@@ -2,7 +2,7 @@
 layout: start.njk
 title: The Alfie Jacques Ambassador Award
 description: "Please support this new initiative to honor the legacy of the Haudenosaunee stickmaker, Alfie Jacques."
-image: /assets/images/image06.jpg
+image: /assets/images/image05.jpg
 
 hero:
   title: Alfie Jacques Ambassador Award #make responsive size and mobile
@@ -37,15 +37,13 @@ show_newsletter: true
 show_alfie: true
 
 article:
-  #title: "About Alfie"
+  title: "STICKMAKER, COACH, EDUCATOR"
+  image_left_side: false
+  image: /assets/images/image05.jpg
   button:
     - text: Stickmaker
       url: "#stickmaker"
 ---
-## STICKMAKER, COACH, EDUCATOR
-
-![Stickmaker coach educator](/assets/images/image05.jpg)
-
 For more than a half century Alfie crafted tens of thousands of wooden lacrosse sticks used by players around the world. He began making traditional wooden sticks with his father, Lou, in 1961. They didn’t have the money to buy sticks, so as Alfie explained countless times, “my father and I said what the heck, let’s make our own.” At the peak of wooden stick usage, Alfie and Lou made 12,000 sticks a year. The arrival of plastic sticks had a devastating effect on their business. But Alfie never quit. His stick making story is a story of perseverance and perpetuating Onondaga history and ceremony.
   
 Alfie was also a coach, speaker, educator, and Ambassador for the game. Alfie loved lacrosse and he loved the people who played it, from all walks of life. He created a traveling roadshow with the different sticks from different regions, and he would speak to any audience about the rich history of the Creator’s Game. 

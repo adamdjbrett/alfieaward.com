@@ -184,6 +184,9 @@ collections:
             name: "article"
             widget: "object"
             fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
               - label: "Button"
                 name: "button"
                 widget: "list"
