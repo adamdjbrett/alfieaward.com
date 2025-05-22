@@ -4,8 +4,8 @@ image: "/assets/images/image01.jpg"
 language: "en"
 locale: en_US
 favicon: /img/logo.png
-#url: "https://alfieaward.com"
-url: "http://localhost:8080"
+url: "https://alfieaward.com"
+#url: "http://localhost:8080"
 #url: "https://alfieaward.netlify.app" #netlify
 metasocial:
   - facebook: "https://www.facebook.com/"
@@ -56,11 +56,11 @@ alfie:
   image: /assets/images/image01.jpg
   text: Please give generously to support this award.
   button:
-    title: Give
+    title: Buy Tickets
     url: https://givebutter.com/alfaward
-  button2:
-    title: Newsletter
-    url: "#newsletter"
+#  button2:
+#    title: Newsletter
+#    url: "#newsletter"
 
 newsletter:
   info: Newsletter

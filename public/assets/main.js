@@ -3086,41 +3086,88 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Modal elements
   const modal = document.getElementById('gallery-modal');
   const modalImg = document.getElementById('gallery-modal-img');
   const captionText = document.getElementById('gallery-modal-caption');
   const closeBtn = document.querySelector('.gallery-modal-close');
+  const prevBtn = document.querySelector('.prev-btn');
+  const nextBtn = document.querySelector('.next-btn');
   const modalContainer = document.querySelector('.modal-container');
 
-  document.querySelectorAll('.gallery-img').forEach(item => {
-    item.addEventListener('click', function() {
-      modal.style.display = 'block';
-      modalImg.src = this.dataset.full;
-      modalImg.alt = this.alt || "";
-      captionText.textContent = this.alt || "";
-      document.body.style.overflow = 'hidden';
+  // Ambil seluruh data gambar dari elemen tersembunyi di DOM
+  const galleryDataNodes = document.querySelectorAll('#gallery-data-container .gallery-data-item');
+  // Array data berbentuk: [{ image, title, index }]
+  let allGalleryData = [];
+  galleryDataNodes.forEach(node => {
+    allGalleryData.push({
+      image: node.getAttribute('data-image'),
+      title: node.getAttribute('data-title'),
+      index: Number(node.getAttribute('data-index'))
     });
   });
+
+  let currentIndex = 0;
+
+  // Event: klik pada thumbnail (gallery-img) - tampilkan modal
+  document.querySelectorAll('.gallery-img').forEach(img => {
+    img.addEventListener('click', function() {
+      // Cari index asli di allGalleryData berdasarkan src
+      const idx = allGalleryData.findIndex(g => g.image === this.dataset.full);
+      if (idx !== -1) openModal(idx);
+    });
+  });
+
+  // Tampilkan modal untuk index tertentu
+  function openModal(index) {
+    currentIndex = index;
+    const imgData = allGalleryData[index];
+    modalImg.src = imgData.image;
+    modalImg.alt = imgData.title || '';
+    captionText.textContent = imgData.title || '';
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+
+  // Navigasi gambar
+  function prevImage() {
+    currentIndex = (currentIndex <= 0) ? allGalleryData.length - 1 : currentIndex - 1;
+    openModal(currentIndex);
+  }
+  function nextImage() {
+    currentIndex = (currentIndex >= allGalleryData.length - 1) ? 0 : currentIndex + 1;
+    openModal(currentIndex);
+  }
+
+  prevBtn.onclick = function(e) { e.stopPropagation(); prevImage(); };
+  nextBtn.onclick = function(e) { e.stopPropagation(); nextImage(); };
 
   closeBtn.onclick = function() {
     modal.style.display = 'none';
     document.body.style.overflow = '';
   };
 
-  // Close modal when clicked outside image
+  // Tutup modal jika klik area luar gambar/modal
   modal.onclick = function(event) {
-    if(event.target !== modalImg && !modalContainer.contains(event.target)) {
+    if (event.target === modal) {
       modal.style.display = 'none';
       document.body.style.overflow = '';
     }
-  }
+  };
 
-  // Key close (esc)
+  // Navigasi pakai keyboard
   document.addEventListener('keydown', function(e) {
-    if (e.key === "Escape") {
-      modal.style.display = 'none';
-      document.body.style.overflow = '';
+    if (modal.style.display === 'block') {
+      if (e.key === "ArrowLeft") {
+        prevImage();
+      } else if (e.key === "ArrowRight") {
+        nextImage();
+      } else if (e.key === "Escape") {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      }
     }
   });
 });
+
 

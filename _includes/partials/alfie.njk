@@ -25,12 +25,9 @@
               href="{{metadata.alfie.button.url}}"
               class="button n01"
               role="button"
-              ><svg aria-labelledby="buttons08-icon-1-title">
-                <title>Heart</title>
-                <use xlink:href="/assets/icons.svg#heart"></use></svg
               ><span class="label">{{metadata.alfie.button.title}}</span></a
             >
-          </li>
+          </li><!--
           <li>
             <a href="{{metadata.alfie.button2.url}}" class="button n02" role="button"
               ><svg aria-labelledby="buttons08-icon-2-title">
@@ -38,13 +35,40 @@
                 <use xlink:href="/assets/icons.svg#email"></use></svg
               ><span class="label">{{metadata.alfie.button2.title}}</span></a
             >
-          </li>
+          </li>-->
         </ul>
+      <h3 class="style1">{{metadata.newsletter.info}}</h3>
+      <h2 class="style2">{{metadata.newsletter.title}}</h2>
+      <p class="style3">{{metadata.newsletter.text}}</p>
+<form id="form01" method="post" action="{{formspree}}">
+        <div class="inner">
+          <div class="field">
+            <input
+              type="email"
+              name="email"
+              id="form01-email"
+              placeholder="Email"
+              maxlength="128"
+              required
+            />
+          </div>
+          <div class="actions">
+            <button type="submit">
+              <svg aria-labelledby="form01-submit-icon-title">
+                <title id="form01-submit-icon-title">Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label">Submit</span>
+            </button>
+          </div>
+        </div>
+        <input type="hidden" name="id" value="form01" />
+      </form>
       </div>{% else %}
       
       <div>
-        <h3 class="style1">{{metadata.alfie.info}}</h3>
-        <h2 class="style2">{{metadata.alfie.title}}</h2>
+        <h4 class="style1">{{metadata.alfie.info}}</h4>
         <p class="style3">{{metadata.alfie.text}}</p>
         <ul class="style1 buttons">
           <li>
@@ -52,12 +76,10 @@
               href="{{metadata.alfie.button.url}}"
               class="button n01"
               role="button"
-              ><svg aria-labelledby="buttons08-icon-1-title">
-                <title>Heart</title>
-                <use xlink:href="/assets/icons.svg#heart"></use></svg
               ><span class="label">{{metadata.alfie.button.title}}</span></a
             >
           </li>
+<!--
           <li>
             <a href="{{metadata.alfie.button2.url}}" class="button n02" role="button"
               ><svg aria-labelledby="buttons08-icon-2-title">
@@ -66,7 +88,36 @@
               ><span class="label">{{metadata.alfie.button2.title}}</span></a
             >
           </li>
+-->
         </ul>
+
+      <h3 class="style1">{{metadata.newsletter.info}}</h3>
+      <p class="style3">{{metadata.newsletter.text}}</p>
+<form id="form02" method="post" action="{{formspree}}">
+        <div class="inner">
+          <div class="field">
+            <input
+              type="email"
+              name="email"
+              id="form02-email"
+              placeholder="Email"
+              maxlength="128"
+              required
+            />
+          </div>
+          <div class="actions">
+            <button type="submit">
+              <svg aria-labelledby="form02-submit-icon-title">
+                <title id="form02-submit-icon-title">Arrow Right (Light)</title>
+                <use
+                  xlink:href="/assets/icons.svg#arrow-right-light"
+                ></use></svg
+              ><span class="label">Submit</span>
+            </button>
+          </div>
+        </div>
+        <input type="hidden" name="id" value="form02" />
+      </form>
       </div>      <div class="full">
         <div id="image01" class="style1 image full" data-position="center">
           <span class="frame"

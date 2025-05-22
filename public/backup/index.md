@@ -5,8 +5,13 @@ description: "Please support this new initiative to honor the legacy of the Haud
 image: /assets/images/image06.jpg
 
 hero:
+  #info: Alfie Jacques Ambassador Award
   title: Alfie Jacques Ambassador Award #make responsive size and mobile
   image: /assets/images/image02.jpg
+  #show_button: true
+  #button:
+   # - text: Tickets
+    #  url: /
   article:
     text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
     show_button: true
@@ -18,6 +23,7 @@ hero:
       url: https://givebutter.com/alfaward
 
 video:
+  #info: Featured Video
   media: "/video/trophy.webm"
   title: "The Trophy"
   text:
@@ -31,6 +37,35 @@ section1:
     coach of the Haudenosaunee Nationals, was selected as the
     inaugural recipient of the
     **[Alfie Jacques Ambassador Award](#intro)**. The Award was presented during the World Indoor Lacrosse Championships in Utica, N.Y., on Sunday, Sept. 22, 2024. Use the the link below to attend the Monday September 23 award dinner at Breezes in Utica."
+#  button1:
+#    text: News
+#    url: "#blog"
+#  button2:
+    #text: About Alfie
+#    url: "#about"
+#  button2:
+#    text: Learn More
+#    url: "#about"
+
+# stickmaker:
+#  title: STICKMAKER
+#  image_left_side: false
+#  image: /assets/images/image06.jpg
+#  article:
+#    - text: "For more than a half century Alfie crafted tens of thousands of wooden lacrosse sticks used by players around the world. He began making traditional wooden sticks with his father, Lou, in 1961. They didn’t have the money to buy sticks, so as Alfie explained countless times, “my father and I said what the heck, let’s make our own.” At the peak of wooden stick usage, Alfie and Lou made 12,000 sticks a year. The arrival of plastic sticks had a devastating effect on their business. But Alfie never quit. His stick making story is a story of perseverance and perpetuating Onondaga history and ceremony."
+#  button:
+#    - text: Educator
+#      url: /#educator
+
+#educator:
+#  title: EDUCATOR
+#  image_left_side: true
+#  image: /assets/images/image05.jpg
+#  article:
+#    - text: "For more than a half century Alfie crafted tens of thousands of wooden lacrosse sticks used by players around the world. He began making traditional wooden sticks with his father, Lou, in 1961. They didn’t have the money to buy sticks, so as Alfie explained countless times, “my father and I said what the heck, let’s make our own.” At the peak of wooden stick usage, Alfie and Lou made 12,000 sticks a year. The arrival of plastic sticks had a devastating effect on their business. But Alfie never quit. His stick making story is a story of perseverance and perpetuating Onondaga history and ceremony."
+#  button:
+#    text: Continue
+#    url: "#details"
 
 show_founding: true
 show_newsletter: true
