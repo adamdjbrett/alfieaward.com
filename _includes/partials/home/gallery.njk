@@ -2,37 +2,59 @@
   <div class="wrapper">
     <div class="inner">
       <h2 class="style2" style="text-align: center">Gallery</h2>
-      <div class="custom-gallery">{% for post in collections.galleries | reverse | limit(22) %}
-        <div class="gallery-item">
-          <img
-            src="{{post.data.image}}"
-            alt="{{post.data.title}}"
-            class="gallery-img"
-            data-full="{{post.data.image}}"
-          />
-        </div>
-{% endfor %}
-
-
+      
+      <!-- Gambar yang ditampilkan di halaman (hanya 6) -->
+      <div class="custom-gallery">
+        {% for post in collections.galleries | reverse | limit(6) %}
+          <div class="gallery-item">
+            <img
+              src="{{post.data.image}}"
+              alt="{{post.data.title}}"
+              class="gallery-img"
+              data-full="{{post.data.image}}"
+              data-title="{{post.data.title}}"
+              data-index="{{loop.index0}}"
+            />
+          </div>
+        {% endfor %}
       </div>
+      
+      <!-- Link ke halaman gallery lengkap -->
       <ul class="style1 buttons custom-gallery">
         <li>
-          <a href="/gallery" class="button n01" role="button"
-            ><svg aria-labelledby="buttons06-icon-1-title">
+          <a href="/gallery" class="button n01" role="button">
+            <svg aria-labelledby="buttons06-icon-1-title">
               <title>Arrow Down (Light)</title>
-              <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
-            ><span class="label">View Gallery</span></a
-          >
+              <use xlink:href="/assets/icons.svg#arrow-down-light"></use>
+            </svg>
+            <span class="label">View Gallery</span>
+          </a>
         </li>
       </ul>
+      
+      <!-- Data yang diperlukan saja, bukan full collections -->
+      <div id="gallery-data-container" style="display:none" 
+        data-count="{{ collections.galleries | length }}">
+        {% for post in collections.galleries | reverse %}
+          <div class="gallery-data-item"
+            data-image="{{ post.data.image }}"
+            data-title="{{ post.data.title }}"
+            data-index="{{ loop.index0 }}">
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
 
+<!-- Modal Popup Gallery -->
 <div id="gallery-modal" class="gallery-modal">
   <span class="gallery-modal-close">&times;</span>
   <div class="modal-container">
+    <button class="gallery-nav-btn prev-btn">&lsaquo;</button>
     <img class="gallery-modal-content" id="gallery-modal-img" alt="" />
+    <button class="gallery-nav-btn next-btn">&rsaquo;</button>
     <div id="gallery-modal-caption"></div>
   </div>
 </div>
+

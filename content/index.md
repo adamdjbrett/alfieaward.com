@@ -24,10 +24,10 @@ hero:
 
 video:
   #info: Featured Video
-  media: "https://www.youtube.com/embed/xGmmjTv3670?si=I5XTo9PkboPpiB83"
+  media: "/video/trophy.webm"
   title: "The Trophy"
   text:
-    - info: "The Alfie Jacques Ambassador Award was carved from soapstone by **[Ryan Sandy](https://www.instagram.com/ryan_sandy_sculptures/)** of Six Nations."
+    - info: 'The Alfie Jacques Ambassador Award was carved from soapstone by <strong><a href="https://www.instagram.com/ryan_sandy_sculptures/" target="_blank">Ryan Sandy</a></strong> of Six Nations.'
 
 section1:
   title: Sid Jamieson
@@ -78,6 +78,8 @@ article:
       url: "#stickmaker"
 ---
 ## STICKMAKER, COACH, EDUCATOR
+
+![Stickmaker coach educator](/assets/images/image05.jpg)
 
 For more than a half century Alfie crafted tens of thousands of wooden lacrosse sticks used by players around the world. He began making traditional wooden sticks with his father, Lou, in 1961. They didn’t have the money to buy sticks, so as Alfie explained countless times, “my father and I said what the heck, let’s make our own.” At the peak of wooden stick usage, Alfie and Lou made 12,000 sticks a year. The arrival of plastic sticks had a devastating effect on their business. But Alfie never quit. His stick making story is a story of perseverance and perpetuating Onondaga history and ceremony.
   

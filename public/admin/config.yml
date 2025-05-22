@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   repo: adamdjbrett/alfieaward.com
   branch: main 
-
+publish_mode: simple
 media_folder: 'public/assets/images'
 public_folder: "/assets/images"
 

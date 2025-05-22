@@ -2,7 +2,7 @@
 
 Official site for [https://www.alfieawards.com](https://www.alfieawards.com)
 
-# CHANGELOG
+# DONE
 ## Decrease font size on : 
 1. Alfie Jacques Ambassador Award 
 2. Trophy
@@ -35,6 +35,13 @@ Increase Font Size on: STICKMAKER, COACH, EDUCATOR (font size should match the T
 ## blog
 - deactivate save for later
 
+## Menu
+- Past Receipent
+    - make the menu work and take someone to #sid-jamieson
+- Trophy
+    - make trophy work in the menu
+
+# CHANGELOG
 ## Footer
 bottom of the page
 in the purple with the ALFIE logo that is in white
@@ -42,9 +49,3 @@ in the purple with the ALFIE logo that is in white
 2. Move newsletter signup into the purple box.
 3. the white at the end should just be the logos
 
-
-## Menu
-- Past Receipent
-    - make the menu work and take someone to #sid-jamieson
-- Trophy
-    - make trophy work in the menu
