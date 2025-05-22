@@ -13,14 +13,22 @@
       <div class="award-video-container">
         <div class="award-grid">
           <div class="video-wrapper" style="--aspect-ratio: 4/3">
-            <iframe
+           <!--  <iframe
               src="{{video.media}}"
               title="{{video.title}}"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             >
-            </iframe>
+            </iframe> -->
+<video
+  src="{{video.media}}"
+  title="{{video.title}}"
+  controls
+  style="width:100%; height:auto;"
+>
+ Your Browser not support video embed.
+</video>
           </div>
 
           <div class="trophy-content">
