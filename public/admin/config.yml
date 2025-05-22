@@ -124,6 +124,38 @@ collections:
               - { label: "URL", name: "url", widget: "string" }
               - { label: "Phone", name: "phone", widget: "string", required: false }
 
+
+  - name: "awardsrer"
+    label: "Awards Receipent"
+    folder: "content/award-receipent"
+    create: false
+    slug: "{{slug}}"
+    extension: "md"
+    editor:
+      preview: false
+    fields:
+      - { label: "Info", name: "info", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - label: "Download"
+        name: "download"
+        widget: "object"
+        fields:
+          - { label: "Text", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Show Download", name: "show", widget: "boolean" }
+      - label: "Button"
+        name: "button"
+        widget: "object"
+        fields:
+          - { label: "Text", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Show Button", name: "show", widget: "boolean" }
+      - { label: "Image On Left Side", name: "image_left_side", widget: "boolean" }
+      - { label: "Published", name: "published", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
   - name: "home"
     label: "Homepage"
     editor:
@@ -223,7 +255,6 @@ collections:
       - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean" }
       - { label: "Show Alfie", name: "show_alfie", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
-
 
   - name: "blog"
     label: "Blog Posts"
