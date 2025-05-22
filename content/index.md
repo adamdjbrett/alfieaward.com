@@ -39,7 +39,7 @@ show_alfie: true
 article:
   title: "STICKMAKER, COACH, EDUCATOR"
   image_left_side: false
-  image: /assets/images/image05.jpg
+  image: /img/gallery/Z_DSC00082.jpeg
   button:
     - text: Stickmaker
       url: "#stickmaker"
