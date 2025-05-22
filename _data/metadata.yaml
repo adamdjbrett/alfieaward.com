@@ -4,8 +4,8 @@ image: "/assets/images/image01.jpg"
 language: "en"
 locale: en_US
 favicon: /img/logo.png
-url: "https://alfieaward.com"
-#url: "http://localhost:8080"
+#url: "https://alfieaward.com"
+url: "http://localhost:8080"
 #url: "https://alfieaward.netlify.app" #netlify
 metasocial:
   - facebook: "https://www.facebook.com/"
