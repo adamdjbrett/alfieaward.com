@@ -1,29 +1,36 @@
-<div
-  id="container050"
-  data-scroll-id="about"
-  data-scroll-behavior="left"
-  data-scroll-offset="0"
-  data-scroll-speed="3"
-  class="style6 container default full screen purple"
->
-  <div class="wrapper leftside">
-    <div class="inner leftside">
-      <h3 id="text33" class="style1 leftside">{{article.title}}</h3>
-      <img class="img-cover" src="{{image}}" />
-      <div class="style3 leftside"><div class="p"
-          >{{content|markdown|safe}}</div></div>
-      <ul class="style1 buttons">
-        {% for b in article.button %}
-        <li>
-          <a href="{{b.url}}" class="button n01" role="button"
-            ><svg aria-labelledby="buttons06-icon-1-title">
-              <title>Arrow Down (Light)</title>
-              <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
-            ><span class="label">{{b.text}}</span></a
-          >
-        </li>
-        {% endfor %}
-      </ul>
+<div id="container141" class="style4 container columns full screen purple" 
+      data-scroll-id="about">
+  <div class="wrapper">
+    <div
+      class="inner"
+      data-onvisible-trigger="1"
+      data-reorder="1,0"
+      data-reorder-breakpoint="medium"
+    >{% if article.image_left_side %}
+
+            <div class="full">
+        <div class="style1 image full" data-position="center">
+          <span class="frame deferred"
+            ><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDI1NjAiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjI1NjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiMyNjFhMGYiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="{{article.image}}" alt="{{article.title}}"
+          /></span>
+        </div>
+      </div>
+      <div>
+        <h2 class="style2">{{article.title}}</h2>
+        <p class="style3">{{content|safe}}</p>
+      </div>{% else %}
+      <div>
+        <h2 class="style2">{{article.title}}</h2>
+        <p class="style3">{{content|safe}}</p>
+      </div>
+            <div class="full">
+              <div class="style1 image full" data-position="center">
+          <span class="frame deferred"
+            ><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDI1NjAiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjI1NjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiMyNjFhMGYiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="{{article.image}}" alt="{{article.title}}"
+          /></span>
+        </div>
+      </div>{% endif %}
     </div>
   </div>
 </div>
+

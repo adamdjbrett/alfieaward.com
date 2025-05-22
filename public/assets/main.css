@@ -1742,6 +1742,14 @@ form .actions button:disabled {
 	width: calc(50% + (var(--gutters) / 2));
 }
 
+#container141 > .wrapper > .inner > :nth-child(1) {
+	width: calc(50% + (var(--gutters) / 2));
+}
+
+#container141 > .wrapper > .inner > :nth-child(2) {
+	width: calc(50% + (var(--gutters) / 2));
+}
+
 #container05 {
 	--alignment: center;
 	--flex-alignment: center;
