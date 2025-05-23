@@ -1,6 +1,6 @@
 ---
-info: "The Alfie Jacques Ambassador Award Board Announces 2025 Recipients"
-title: "Faithkeeper Oren Lyons and Roy Simmons Jr."
+info: "The 2025 Recipients"
+title: "Faithkeeper Oren Lyons & Roy Simmons Jr."
 image: "/img/gallery/Z_Oren-Roy-Jr.jpg"
 image_left_side: false
 download:
