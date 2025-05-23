@@ -1,7 +1,7 @@
 ---
 info: "The 2025 Recipients"
-title: "Faithkeeper Oren Lyons & Roy Simmons Jr."
-image: "/img/gallery/diptych-03.jpg"
+title: "Faithkeeper Oren Lyons & Roy Simmons"
+image: "/img/diptych-03-web.jpg"
 image_left_side: false
 download:
  show: true
