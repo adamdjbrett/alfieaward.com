@@ -12,7 +12,7 @@ metasocial:
   - twitteruser: "@username"
   - twitter: "https://x.com/user"
 formspree: "https://formspree.io/f/xdodoqnq"
-favicon: /assets/images/favicon.png
+favicon: /img/favicon.png
 
 #Navigation
 navbar:
