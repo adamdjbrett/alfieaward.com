@@ -27,7 +27,7 @@ section1:
   title: Sid Jamieson
   image_left_side: true
   image: /assets/images/image04.jpg
-  text: "Sid Jamieson, the first Indigenous NCAA head coach and first head
+  text: "Sid Jamieson (Cayuga Nation), the first Indigenous NCAA head coach and first head
     coach of the Haudenosaunee Nationals, was selected as the
     inaugural recipient of the
     **[Alfie Jacques Ambassador Award](#intro)**. The Award was presented during the World Indoor Lacrosse Championships in Utica, N.Y., on Sunday, Sept. 22, 2024. Use the the link below to attend the Monday September 23 award dinner at Breezes in Utica."
