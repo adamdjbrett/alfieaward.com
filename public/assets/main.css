@@ -2597,6 +2597,24 @@ form .actions button:disabled {
 		min-height: 100% !important;
 		width: 100% !important;
 	}
+	#container140 > .wrapper > .inner > :nth-child(1) {
+		min-height: 100% !important;
+		width: 100% !important;
+	}
+
+	#container140 > .wrapper > .inner > :nth-child(2) {
+		min-height: 100% !important;
+		width: 100% !important;
+	}
+	#container141 > .wrapper > .inner > :nth-child(1) {
+		min-height: 100% !important;
+		width: 100% !important;
+	}
+
+	#container141 > .wrapper > .inner > :nth-child(2) {
+		min-height: 100% !important;
+		width: 100% !important;
+	}
 
 	#container12 > .wrapper > .inner > :nth-child(1) {
 		min-height: 100% !important;
