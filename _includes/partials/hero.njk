@@ -26,7 +26,7 @@
         <h3 class="style1">{{post.data.info}}</h3>
         <h2 class="style2">{{post.data.title}}</h2>
         <p class="style3">{{post.content|safe}}</p>
-        {% if post.data.download.show %}<p class="style3"><strong><a href="{{post.data.download.url}}" target="_blank">{{post.data.download.title}}</a></strong></p>{% endif %}
+        {% if post.data.download.show %}<p class="style3"><strong><a target="_blank" href="{{post.data.download.url}}" target="_blank">{{post.data.download.title}}</a></strong></p>{% endif %}
         {% if post.data.button.show %}
         <ul class="style1 buttons">
           <li>
@@ -44,11 +44,11 @@
         <h3 class="style1">{{post.data.info}}</h3>
         <h2 class="style2">{{post.data.title}}</h2>
         <p class="style3">{{post.content|safe}}</p>
-        {% if post.data.download.show %}<p class="style3"><strong><a href="{{post.data.download.url}}">{{post.data.download.title}}</a></strong></p>{% endif %}
+        {% if post.data.download.show %}<p class="style3"><strong><a target="_blank" href="{{post.data.download.url}}">{{post.data.download.title}}</a></strong></p>{% endif %}
         {% if post.data.button.show %}
         <ul class="style1 buttons">
           <li>
-            <a href="{{post.data.button.url}}" class="button n01" role="button"
+            <a href="{{post.data.button.url}}"  class="button n01" role="button"
               ><svg aria-labelledby="buttons06-icon-1-title">
               <title>Arrow Down (Light)</title>
               <use xlink:href="/assets/icons.svg#arrow-down-light"></use></svg
