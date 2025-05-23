@@ -20,7 +20,7 @@ hero:
 video:
   media: "/video/trophy.webm"
   mp4: "/video/trophy.mp4"
-  ogg: "/video/
+  ogg: "/video/trophy.ogg"
   title: "The Trophy"
   text:
     - info: 'The Alfie Jacques Ambassador Award was carved from soapstone by <strong><a href="https://www.instagram.com/ryan_sandy_sculptures/" target="_blank">Ryan Sandy</a></strong> of Six Nations.'
