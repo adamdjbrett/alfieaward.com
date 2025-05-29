@@ -5,8 +5,8 @@ event:
   date: September 12, 2025
   time: 05:00PM
   location:
-    - info: "Sharkey’s Event Center"
-    - info: "7240 Oswego Road, Liverpool, NY 13090"
+    - info: "Bellevue Country Club"
+    - info: "1901 Glenwood Ave, Syracuse, NY 13207"
 date: 2025-05-13
 show_founding: true
 show_newsletter: true
