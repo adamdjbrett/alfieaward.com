@@ -62,6 +62,72 @@ alfie:
 #    title: Newsletter
 #    url: "#newsletter"
 
+
+sponsor:
+ title: Our Sponsors
+ text: The organizing committee would like to thank our sponsors for making our dream of this event a reality.
+ logo: 
+   - image: /img/website_logos/NativeVision/NativeVision-01.png
+     url: https://cih.jhu.edu/programs/nativevision/
+     alt: Nativevision
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+   - image: /img/website_logos/jh/Artwork-50.svg
+     url: https://cih.jhu.edu/
+     alt: Johns Hopkins Center for Indigenous Health
+     ratio: "1/1"
+     background: "#222"
+     hover: "#222"
+   - image: /img/website_logos/haudenosaunee_nationals/INL-watermark.png
+     url: https://www.haudenosauneenationals.com/
+     alt: Haduenosaunee Nationals
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#222"
+   - image: /img/website_logos/PLL/pll.png
+     url: https://premierlacrosseleague.com/pll-assists
+     alt: PLL Assists
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+   - image: /img/website_logos/USA_Lacrosse/USAL_vertical_rgb_lightbg.png
+     url: https://www.usalacrosse.com/
+     alt: USA Lacrosse
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+   - image: /img/website_logos/Lacrosse_Canada/Lacrosse_Canada_logo.svg
+     url: https://lacrosse.ca/
+     alt: Canada Lacrosse
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+   - image: /img/website_logos/One_Bowl/One Bowl Final CMYK-Transparent.png
+     url: https://www.onebowlproductions.com/
+     alt: One Bowl Productions
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+   - image: /img/website_logos/AILA/AILA-new-circle-logo.jpg
+     url: https://www.aila.ngo
+     alt: American Indian Law Alliance
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+   - image: /img/website_logos/Indigenous_Values/Indigenous-Values-Initiative-new-logo-full-resolution2.png
+     url: https://indigenouvalues.org
+     alt: Indigenous Values Initiative
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+   - image: /img/website_logos/CIH_logo1/CIH_logo_1-01.png
+     url: https://www.lacrossetheancientgame.com/
+     alt: Lacrosse the Ancient Game
+     ratio: "1/1"
+     background: "#fff"
+     hover: "#fff"
+ 
 newsletter:
   info: Newsletter
   title: Stay in Touch

@@ -1,0 +1,18 @@
+<div class="container style3 default full screen purple">
+  <div class="wrapper">
+    <div class="inner">
+{% if show_sponsor %}<h2 class="style2" style="text-align: center">{{metadata.sponsor.title}}</h2>
+<p class="style3" style="text-align: center">{{metadata.sponsor.text}}</p>
+<div class="gallery-grid-5x5">
+{% for post in metadata.sponsor.logo %}
+<div class="gallery-grid-item5x5" 
+style="--aspect-ratio: {{post.ratio}}; --gallery-frame-bg: {{post.background}}; --gallery-frame-bg-hover: {{post.hover}};">
+<a href="{{post.url}}" target="_blank" rel="noopener noreferrer">
+<img src="{{post.image}}" alt="{{post.alt}}" class="gallery-img5x5" />
+</a>
+</div>
+{% endfor %}
+</div>      
+</div>
+</div>
+</div>{% endif %}
