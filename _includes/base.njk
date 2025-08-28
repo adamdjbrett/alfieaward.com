@@ -10,9 +10,10 @@
       <div id="main">
         <div class="inner" id="visuall">
           <section id="home-section">
-            {{content|safe}}{% include
-            "partials/founding.njk" %} {% include "partials/alfie.njk" %} {%
-            include "partials/newsletter.njk" %}
+            {{content|safe}}
+			{% include "partials/founding.njk" %} 
+			{% include "partials/alfie.njk" %}
+			{% include "partials/newsletter.njk" %}
           </section>
           {% include "partials/support.njk" %}
         </div>

@@ -25,6 +25,8 @@ navbar:
       url: /#sid-jamieson
     - nav: The Trophy
       url: /#trophy
+    - nav: Sponsors
+      url: /#sponsors
     - nav: Support
       url: /#goal
   button:
@@ -73,18 +75,18 @@ sponsor:
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/jh/Artwork-50.svg
+   - image: /img/website_logos/CIH_logo1/CIH_logo_1-01.png
      url: https://cih.jhu.edu/
      alt: Johns Hopkins Center for Indigenous Health
      ratio: "1/1"
-     background: "#222"
-     hover: "#222"
+     background: "#fff"
+     hover: "#fff"
    - image: /img/website_logos/haudenosaunee_nationals/INL-watermark.png
      url: https://www.haudenosauneenationals.com/
      alt: Haduenosaunee Nationals
      ratio: "1/1"
      background: "#fff"
-     hover: "#222"
+     hover: "#fff"
    - image: /img/website_logos/PLL/pll.png
      url: https://premierlacrosseleague.com/pll-assists
      alt: PLL Assists
@@ -121,7 +123,7 @@ sponsor:
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/CIH_logo1/CIH_logo_1-01.png
+   - image: /img/website_logos/Lacrosse_The_Ancient_Game/LTAG logo-transparent.png
      url: https://www.lacrossetheancientgame.com/
      alt: Lacrosse the Ancient Game
      ratio: "1/1"
