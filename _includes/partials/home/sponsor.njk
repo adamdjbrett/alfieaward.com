@@ -1,7 +1,8 @@
-<div class="container style3 default full screen purple">
-  <div class="wrapper">
-    <div class="inner">
-{% if show_sponsor %}<h2 class="style2" style="text-align: center">{{metadata.sponsor.title}}</h2>
+{% if show_sponsor %}<div class="container style3 default full screen purple"
+  data-scroll-id="sponsors">
+<div class="wrapper">
+<div class="inner">
+<h2 class="style2" style="text-align: center">{{metadata.sponsor.title}}</h2>
 <p class="style3" style="text-align: center">{{metadata.sponsor.text}}</p>
 <div class="gallery-grid-5x5">
 {% for post in metadata.sponsor.logo %}
