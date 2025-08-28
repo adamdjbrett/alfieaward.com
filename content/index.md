@@ -37,6 +37,7 @@ section1:
 show_founding: true
 show_newsletter: true
 show_alfie: true
+show_sponsor: true
 
 article:
   title: "STICKMAKER, COACH, EDUCATOR"

@@ -90,6 +90,23 @@ collections:
                 fields:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
+          - label: "Sponsor"
+            name: "sponsor"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Text", name: "text", widget: "string", required: false }
+              - label: "Logos"
+                name: "logo"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Logo Image", name: "image", widget: "image", required: false }
+                  - { label: "Sponsor URL", name: "url", widget: "string", required: false }
+                  - { label: "Alt Text", name: "alt", widget: "string", required: false }
+                  - { label: "Aspect Ratio", name: "ratio", widget: "string", required: false, hint: "Example: 1/1, 16/9" }
+                  - { label: "Frame Background", name: "background", widget: "string", required: false, hint: "Example: #fff or #222" }
+                  - { label: "Frame Hover", name: "hover", widget: "string", required: false, hint: "Example: #fff or #222" }
           - label: "Newsletter"
             name: "newsletter"
             widget: "object"
@@ -225,6 +242,10 @@ collections:
                 fields:
                   - { label: "Text", name: "text", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
+          - { label: "Show Founding", name: "show_founding", widget: "boolean" }
+          - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean" }
+          - { label: "Show Alfie", name: "show_alfie", widget: "boolean" }
+          - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean" }
           - { label: "Body", name: "body", widget: "markdown" }
 
 
@@ -254,6 +275,7 @@ collections:
       - { label: "Show Founding", name: "show_founding", widget: "boolean" }
       - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean" }
       - { label: "Show Alfie", name: "show_alfie", widget: "boolean" }
+      - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "blog"
@@ -277,6 +299,7 @@ collections:
       - { label: "Show Founding", name: "show_founding", widget: "boolean", default: true }
       - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: true }
       - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: true }
+      - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean", default: true }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "gallery"
@@ -315,6 +338,7 @@ collections:
           - { label: "Show Founding", name: "show_founding", widget: "boolean", default: false }
           - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
           - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
+          - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean", default: false }
 
 
   - name: "blogpages"
@@ -337,6 +361,7 @@ collections:
           - { label: "Show Founding", name: "show_founding", widget: "boolean", default: false }
           - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
           - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
+          - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean", default: false }
 
 
   - name: "galerypages"
@@ -353,5 +378,6 @@ collections:
           - { label: "Show Founding", name: "show_founding", widget: "boolean", default: false }
           - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
           - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
+          - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean", default: false }
 
 
