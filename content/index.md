@@ -26,6 +26,7 @@ video:
     - info: 'The Alfie Jacques Ambassador Award was carved from soapstone by <strong><a href="https://www.instagram.com/ryan_sandy_sculptures/" target="_blank">Ryan Sandy</a></strong> of Six Nations.'
 
 section1:
+  inf: 2024 Recipient
   title: Sid Jamieson
   image_left_side: true
   image: /assets/images/image04.jpg

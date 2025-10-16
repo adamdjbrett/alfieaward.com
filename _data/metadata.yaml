@@ -21,7 +21,7 @@ navbar:
       url: /
     - nav: About
       url: /#about
-    - nav: Past Recipient
+    - nav: Past Recipients
       url: /#sid-jamieson
     - nav: The Trophy
       url: /#trophy
