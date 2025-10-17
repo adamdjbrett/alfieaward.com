@@ -1,3 +1,4 @@
+{% if show_hero_receipents %}
 {% for post in collections.receipents %}
 {% if post.data.published %}
 <div
@@ -70,7 +71,7 @@
 </div>
 {% endif %}
 {% endfor %}
-
+{% endif %}
 
 <div
   id="container14"

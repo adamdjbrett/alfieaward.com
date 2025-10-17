@@ -5,6 +5,18 @@ Official site for [https://www.alfieawards.com](https://www.alfieawards.com)
 
 # CHANGELOG
 
+17 Oct 2025
+
++ Add Past Recepients Dropdown Menu
++ Add Past Recepients Page collections
++ Update Navbar Code Base
++ Update with section scheme
++ Update section scheme on all section code base
++ Implement Boolean function for show or hide Hero Recepients on home page
++ Update gallery home page with 8 image
++ Update CMS Backend
+
+
 Award Receipent Features with published true / false
 to edit this section on `content/award-receipent/*.md`
 

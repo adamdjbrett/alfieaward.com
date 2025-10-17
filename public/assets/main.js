@@ -1,5 +1,4 @@
 /* Carrd Site JS | carrd.co | License: MIT */
-
 (function() {
 
 	// Main.
@@ -3171,3 +3170,22 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+    function toggleDropdown(event) {
+        event.preventDefault();
+        const dropdownMenu = event.target.nextElementSibling;
+        dropdownMenu.classList.toggle('show');
+    }
+
+    // Close dropdown when clicking outside
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropdown-toggle')) {
+            const dropdowns = document.getElementsByClassName("dropdown-menu");
+            for (let i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+	

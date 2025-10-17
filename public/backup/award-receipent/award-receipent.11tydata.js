@@ -1,5 +1,5 @@
 export default {
 	tags: [
-		"receipents"
+		"award-receipents"
 	],
 };

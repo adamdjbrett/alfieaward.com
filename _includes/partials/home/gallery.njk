@@ -3,9 +3,8 @@
     <div class="inner">
       <h2 class="style2" style="text-align: center">Gallery</h2>
       
-      <!-- Gambar yang ditampilkan di halaman (hanya 6) -->
       <div class="custom-gallery">
-        {% for post in collections.galleries | reverse | limit(6) %}
+        {% for post in collections.galleries | reverse | limit(8) %}
           <div class="gallery-item">
             <img
               src="{{post.data.image}}"
@@ -19,7 +18,6 @@
         {% endfor %}
       </div>
       
-      <!-- Link ke halaman gallery lengkap -->
       <ul class="style1 buttons custom-gallery">
         <li>
           <a href="/gallery" class="button n01" role="button">

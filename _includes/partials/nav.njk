@@ -7,6 +7,16 @@
       <span></span>
     </button>
     <ul class="navbar-menu" id="navbar-menu">
+      {% if metadata.navbar.nav_home %}<li><a href="{{metadata.navbar.nav_home.url}}" class="nav-link">{{metadata.navbar.nav_home.nav}}</a></li>{% endif %}
+      {% if metadata.navbar.nav_about.nav %}<li><a href="{{metadata.navbar.nav_about.url}}" class="nav-link">{{metadata.navbar.nav_about.nav}}</a></li>{% endif %}
+      {% if metadata.navbar.nav_recipients.title %}<li class="dropdown  mobile-dropdown">
+                <span class="nav-link dropdown-toggle text-white" id="dropdownMenuButton" onclick="toggleDropdown(event)">
+                    {{metadata.navbar.nav_recipients.title}}
+                </span>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    {% for n in metadata.navbar.nav_recipients.list %}<a class="dropdown-item" href="{{n.url}}">{{n.nav}}</a>{% endfor %}
+                </div>
+            </li>{% endif %}
       {% for n in metadata.navbar.list %}<li><a href="{{n.url}}" class="nav-link">{{n.nav}}</a></li>{% endfor %}
       <li><a href="{{metadata.navbar.button.url}}" class="nav-link nav-btn text-white">{{metadata.navbar.button.title}}</a></li>
     </ul>
