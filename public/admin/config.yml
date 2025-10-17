@@ -38,6 +38,29 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
+              - label: "Nav Home"
+                name: "nav_home"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "nav", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Nav 2"
+                name: "nav_about"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "nav", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Nav Recipients"
+                name: "nav_recipients"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "nav", widget: "string" }
+                  - label: "Nav Recipients List"
+                    name: "list" 
+                    widget: "list"
+                    fields:
+                       - { label: "Title", name: "nav", widget: "string" }
+                       - { label: "URL", name: "url", widget: "string" }
               - label: "List"
                 name: "list"
                 widget: "list"
@@ -54,6 +77,7 @@ collections:
             name: "founding"
             widget: "object"
             fields:
+              - { label: "Section", name: "section", widget: "string" }
               - { label: "Info", name: "info", widget: "string" }
               - { label: "Show Widget", name: "show_widget", widget: "boolean" }
               - { label: "Title", name: "title", widget: "string" }
@@ -72,6 +96,7 @@ collections:
             name: "alfie"
             widget: "object"
             fields:
+              - { label: "Section", name: "section", widget: "string" }
               - { label: "Logo", name: "logo", widget: "image" }
               - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
               - { label: "Info", name: "info", widget: "string" }
@@ -94,6 +119,7 @@ collections:
             name: "sponsor"
             widget: "object"
             fields:
+              - { label: "Section", name: "section", widget: "string" }
               - { label: "Title", name: "title", widget: "string", required: false }
               - { label: "Text", name: "text", widget: "string", required: false }
               - label: "Logos"
@@ -111,6 +137,7 @@ collections:
             name: "newsletter"
             widget: "object"
             fields:
+              - { label: "Section", name: "section", widget: "string" }
               - { label: "Info", name: "info", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "string" }
@@ -143,8 +170,8 @@ collections:
 
 
   - name: "awardsrer"
-    label: "Awards Receipent"
-    folder: "content/award-receipent"
+    label: "Receipents"
+    folder: "content/receipents"
     create: false
     slug: "{{slug}}"
     extension: "md"
@@ -185,6 +212,7 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Image", name: "image", widget: "image" }
+          - { label: "show_hero_receipents", name: "Show Header Receipents", widget: "boolean" , default: false }
           - label: "Hero"
             name: "hero"
             widget: "object"
@@ -214,6 +242,7 @@ collections:
             name: "video"
             widget: "object"
             fields:
+              - { label: "Section", name: "section", widget: "string" }
               - { label: "Media", name: "media", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - label: "Text"
@@ -225,6 +254,7 @@ collections:
             name: "section1"
             widget: "object"
             fields:
+              - { label: "Section", name: "section", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
               - { label: "Image", name: "image", widget: "image" }
@@ -233,6 +263,7 @@ collections:
             name: "article"
             widget: "object"
             fields:
+              - { label: "Section", name: "section", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }

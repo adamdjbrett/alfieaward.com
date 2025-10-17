@@ -9,19 +9,32 @@ layout: base.njk
 >
   <div class="wrapper">
     <div class="inner" data-onvisible-trigger="1">
-      <h3 class="style1">{{description}}</h3>
-      <h2 class="style2">{{title}}</h2>
-      <p class="style3">
-        {%- for tag in tags | filterTagList %}{% if tags %}<span class="p"
-          >
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
-	</span>{% endif %}{%- endfor %}
-        <span class="p"
-          >{{content|safe}}
+      <h1 id="text13" class="style2">{{title}}</h1>
+      <h2 class="style1">{{description}}</h2>
+      <img
+              src="{{image}}"
+              alt="{{title}}"
+              class="3image full"
+            />
+      <p id="text31" class="style3">
+        {{content|safe}}
+       {% if download.show %}<p><strong>
+        <ul class="style1 buttons">
+          <li>
+            <a
+              href="{{download.url}}"
+              class="button n01"
+              role="button"
+              ><span class="label">{{download.title}}</span></a
+            >
+          </li>
+          </ul>
+        {% endif %}
+         
       </p>
-      {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
+<!--
+{%- set previousPost = collections.recipients | getPreviousCollectionItem %}
+{%- set nextPost = collections.recipients | getNextCollectionItem %}
 {%- if nextPost or previousPost %}
       <ul class="style1 buttons">
         {%- if previousPost %}<li>
@@ -41,6 +54,7 @@ layout: base.njk
           >
         </li>{% endif %}
        {%- endif %}
+      -->
       </ul>
     </div>
   </div>

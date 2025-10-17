@@ -1,5 +1,5 @@
 <div
-  id="video"
+  id="{{video.section}}"
   data-scroll-id="trophy"
   data-scroll-behavior="default"
   data-scroll-offset="0"
@@ -32,7 +32,7 @@
           </div>
 
           <div class="trophy-content">
-            <div class="trophy-description">
+            <div class="trophy-description pd-5">
               <h2 id="text-video-subtitle" class="style65">{{video.title}}</h2>
              <p class="style3">{% for v in video.text %}<span class="p gede">{{v.info|markdown|safe}}</span>{% endfor %}</p>
             </div>

@@ -4,6 +4,8 @@ title: The Alfie Jacques Ambassador Award
 description: "Please support this new initiative to honor the legacy of the Haudenosaunee stickmaker, Alfie Jacques."
 image: /assets/images/image05.jpg
 
+show_hero_receipents: false
+
 hero:
   title: Alfie Jacques Ambassador Award #make responsive size and mobile
   image: /assets/images/image02.jpg
@@ -18,6 +20,7 @@ hero:
       url: https://givebutter.com/alfaward
 
 video:
+  section: video
   media: "/video/trophy.webm"
   mp4: "/video/trophy.mp4"
   ogg: "/video/trophy.ogg"
@@ -26,6 +29,7 @@ video:
     - info: 'The Alfie Jacques Ambassador Award was carved from soapstone by <strong><a href="https://www.instagram.com/ryan_sandy_sculptures/" target="_blank">Ryan Sandy</a></strong> of Six Nations.'
 
 section1:
+  section: sid-jamieson
   inf: 2024 Recipient
   title: Sid Jamieson
   image_left_side: true
@@ -41,6 +45,7 @@ show_alfie: true
 show_sponsor: true
 
 article:
+  section: about
   title: "STICKMAKER, COACH, EDUCATOR"
   image_left_side: false
   image: /img/gallery/Z_DSC00082.jpeg

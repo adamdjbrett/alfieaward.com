@@ -29,16 +29,16 @@ layout: base.njk
           <a href="{{ previousPost.url }}" class="button n01" role="button"
             ><svg aria-labelledby="buttons01-icon-1-title">
               <title>Arrow Right (Light)</title>
-              <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
+              <use xlink:href="/assets/icons.svg#arrow-left-light"></use></svg
             ><span class="label">PREVIOUS</span></a
           >
         </li>{% endif %}
         {%- if nextPost %}<li>
           <a href="{{nextPost.url}}" class="button n01" role="button"
-            ><svg aria-labelledby="buttons01-icon-1-title">
+            ><span class="label">NEXT</span><svg aria-labelledby="buttons01-icon-1-title">
               <title>Arrow Right (Light)</title>
               <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
-            ><span class="label">NEXT</span></a
+            ></a
           >
         </li>{% endif %}
        {%- endif %}
