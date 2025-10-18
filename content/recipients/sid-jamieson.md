@@ -1,5 +1,5 @@
 ---
-info: "Sid Jamieson"
+info: "2024 Recipient"
 title: "Sid Jamieson"
 description: 
 image: "/img/diptych-03-web.jpg"
@@ -14,4 +14,4 @@ button:
  url: "#introduction"
 published: true
 ---
-In 2025, for the first time, the award will be presented to two recipients — Onondaga Nation Turtle Clan Faithkeeper Oren Lyons and Coach Roy Simmons Jr. — two longtime friends and former teammates whose lives and legacies stand as profound representations of what the game of lacrosse is about. Both Lyons and Simmons have walked alongside Alfie Jacques for decades, as advocates and storytellers. They have lived lives that reflect the deep spiritual and communal roots of the game.
+Sid Jamieson (Cayuga Nation), the first Indigenous NCAA head coach and first head coach of the Haudenosaunee Nationals, was selected as the inaugural recipient of the Alfie Jacques Ambassador Award. The Award was presented during the World Indoor Lacrosse Championships in Utica, N.Y., on Sunday, Sept. 22, 2024. Use the the link below to attend the Monday September 23 award dinner at Breezes in Utica.
