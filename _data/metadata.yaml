@@ -25,9 +25,9 @@ navbar:
   nav_recipients: 
    title: "Past Recipients"
    list: 
-    - nav: Sid jamieson
+    - nav: Sid Jamieson
       url: /recipients/sid-jamieson
-    - nav: Roy Simmons
+    - nav: Roy Simmons Jr.
       url:  /recipients/roy-simmons
     - nav: Oren Lyons
       url:  /recipients/oren-lyons

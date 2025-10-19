@@ -2,12 +2,12 @@
 info: "2024 Recipient"
 title: "Sid Jamieson"
 description: 
-image: "/img/diptych-03-web.jpg"
+image: "/img/image04.jpg"
 image_left_side: false
 download:
  show: true
- title: "View The Press Release"
- url: "/pdfs/pressrelease.pdf"
+ title: "Read the Annoucement"
+ url: "https://www.insidelacrosse.com/article/sid-jamieson-named-inaugural-alfie-jacques-ambassador-award-recipient/63953"
 button:
  show: true 
  title: Keep Reading
