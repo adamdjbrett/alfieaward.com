@@ -2,7 +2,7 @@
 info: "Oren Lyons"
 title: "Oren Lyons"
 description: 
-image: "/img/gallery/oren-lyons-traditional-scaled.jpg"
+image: "/img/gallery/oren-lyons-traditional-scaled.webp"
 image_left_side: false
 download:
  show: true

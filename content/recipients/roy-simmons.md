@@ -2,7 +2,7 @@
 info: "Roy Simmons"
 title: "Roy Simmons Jr."
 description: 
-image: "/img/gallery/Z_simmons-spread.jpeg"
+image: "/img/gallery/Z_simmons-spread.webp"
 image_left_side: false
 download:
  show: true
