@@ -4224,3 +4224,58 @@ img,iframe {max-width:100%;}
         text-align: left;
     }
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+  align-items: center; /* Menambahkan perataan vertikal di tengah */
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-item {
+  display: flex;
+  align-items: center; /* Menambahkan perataan vertikal di tengah pada grid item */
+}
+
+.grid-item p {
+  margin: 0; /* Menghilangkan margin pada elemen p */
+}
+
+.grid-item ul {
+  margin: 0; /* Menghilangkan margin pada elemen ul */
+  padding: 0; /* Menghilangkan padding pada elemen ul */
+}
+
+.icons-right {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.text-end {
+  text-align: end;
+}
+.d-flex {
+  display: flex;
+}
+
+.text-start {
+  text-align: start;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.mt-5 {margin-top:50px:}

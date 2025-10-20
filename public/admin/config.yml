@@ -212,7 +212,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Image", name: "image", widget: "image" }
-          - { label: "show_hero_receipents", name: "Show Header Receipents", widget: "boolean" , default: false }
           - label: "Hero"
             name: "hero"
             widget: "object"
@@ -250,15 +249,6 @@ collections:
                 widget: "list"
                 fields:
                   - { label: "Info", name: "info", widget: "markdown" }
-          - label: "Section 1"
-            name: "section1"
-            widget: "object"
-            fields:
-              - { label: "Section", name: "section", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Image Left Side", name: "image_left_side", widget: "boolean" }
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Text", name: "text", widget: "markdown" }
           - label: "Article"
             name: "article"
             widget: "object"

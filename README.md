@@ -5,6 +5,17 @@ Official site for [https://www.alfieawards.com](https://www.alfieawards.com)
 
 # CHANGELOG
 
+20 Oct 2025
+
++ Remove section1
++ The footer left aligned: Built with Eleventy. Supported by the American Indian Law Alliance. Maintained by Adam DJ Brett.
++ The footer right aligned social media icons no bigger than 24x24 pixels. + use black and white svgs. NO JS for social media
++ combine and use global image on public/img/
++ improve the PERF score
++ Add Javascript lazy load image and video
++ Update the backend CMS
+
+
 17 Oct 2025
 
 + Add Past Recepients Dropdown Menu

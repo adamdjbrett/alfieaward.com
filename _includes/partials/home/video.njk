@@ -21,13 +21,13 @@
               allowfullscreen
             >
             </iframe> -->
-<video controls style="width:100%; height:auto;">
-  <source src="{{video.mp4}}" type="video/mp4">
-  <source src="{{video.media}}" type="video/webm">
-  <source src="{{video.ogg}}" type="video/ogg">
+<video controls style="width:100%; height:auto;" data-src="{{video.mp4}}" data-webm="{{video.media}}" data-ogg="{{video.ogg}}" loading="lazy">
+  <source data-src="{{video.mp4}}" type="video/mp4">
+  <source data-src="{{video.media}}" type="video/webm">
+  <source data-src="{{video.ogg}}" type="video/ogg">
   Your browser does not support HTML 5 Video.
   <a href="{{video.media}}">Download</a> the video.
- Your Browser not support video embed.
+  Your Browser not support video embed.
 </video>
           </div>
 

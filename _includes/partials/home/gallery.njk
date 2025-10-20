@@ -10,6 +10,7 @@
               src="{{post.data.image}}"
               alt="{{post.data.title}}"
               class="gallery-img"
+              loading="lazy"
               data-full="{{post.data.image}}"
               data-title="{{post.data.title}}"
               data-index="{{loop.index0}}"
@@ -36,6 +37,7 @@
         {% for post in collections.galleries | reverse %}
           <div class="gallery-data-item"
             data-image="{{ post.data.image }}"
+            loading="lazy"
             data-title="{{ post.data.title }}"
             data-index="{{ loop.index0 }}">
           </div>
@@ -50,7 +52,7 @@
   <span class="gallery-modal-close">&times;</span>
   <div class="modal-container">
     <button class="gallery-nav-btn prev-btn">&lsaquo;</button>
-    <img class="gallery-modal-content" id="gallery-modal-img" alt="" />
+    <img class="gallery-modal-content" id="gallery-modal-img" alt="" loading="lazy"/>
     <button class="gallery-nav-btn next-btn">&rsaquo;</button>
     <div id="gallery-modal-caption"></div>
   </div>

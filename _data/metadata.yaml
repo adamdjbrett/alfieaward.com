@@ -1,6 +1,6 @@
 title: "Alfie Jacques Award"
 description: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
-image: "/assets/images/image01.jpg"
+image: "/img/home/image01.jpg"
 language: "en"
 locale: en_US
 favicon: /img/favicon.png
@@ -8,9 +8,9 @@ url: "https://alfieaward.com"
 #url: "http://localhost:8080"
 #url: "https://alfieaward.netlify.app" #netlify
 metasocial:
-  - facebook: "https://www.facebook.com/"
-  - twitteruser: "@username"
-  - twitter: "https://x.com/user"
+  - facebook: "https://www.facebook.com/americanindianlawalliance"
+  - twitteruser: "@AILAnyc"
+  - twitter: "https://x.com/AILAnyc"
 formspree: "https://formspree.io/f/xdodoqnq"
 
 #Navigation
@@ -62,11 +62,11 @@ founding:
 
 alfie:
   section: alfie
-  logo: /assets/images/image01.jpg
+  logo: /img/home/image01.jpg
   image_left_side: true
   info: "In honor and in memory of"
   title: Alfie Jacques
-  image: /assets/images/image01.jpg
+  image: /img/home/image01.jpg
   text: Please give generously to support this award.
   button:
     title: Buy Tickets
@@ -149,16 +149,21 @@ newsletter:
   text: keep in touch with this initiative
 
 social:
-  twitter: https://twitter.com/ailanyc
-  facebook: https://www.facebook.com/americanindianlawalliance/
+  twitter: https://x.com/AILAnyc
+  facebook: https://www.facebook.com/americanindianlawalliance
   instagram: https://www.instagram.com/americanindianlawalliance/
   web: https://aila.ngo
+  bsky: https://bsky.app/profile/aila.social
   email: mailto:aila@aila.ngo
 
 copyrights:
   text: Maintained by
   text1: Adam DJ Brett
   text1_url: https://adamdjbrett.com
+  support: 
+    text: Supported by
+    text1: the American Indian Law Alliance
+    url: https://aila.ngo/
 
 author:
   name: "Adam DJ Brett"
