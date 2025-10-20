@@ -4236,13 +4236,8 @@ img,iframe {max-width:100%;}
   .grid-container {
     grid-template-columns: 1fr;
   }
-  .mobilio {display: none !important;}
 }
-@media (max-width: 400px) {
-  .mobilio {
-    display: none !important;
-  }
-}
+
 
 .grid-item {
   display: flex;
