@@ -2,11 +2,11 @@
 layout: start.njk
 title: The Alfie Jacques Ambassador Award
 description: "Please support this new initiative to honor the legacy of the Haudenosaunee stickmaker, Alfie Jacques."
-image: /img/home/image05.jpg
+image: /img/home/image05.webp
 
 hero:
   title: Alfie Jacques Ambassador Award #already responsive - for desktop and mobile.
-  image: /img/home/image02.jpg
+  image: /img/home/image02.webp
   article:
     text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
     show_button: true
