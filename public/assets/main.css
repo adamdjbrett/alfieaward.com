@@ -4236,6 +4236,12 @@ img,iframe {max-width:100%;}
   .grid-container {
     grid-template-columns: 1fr;
   }
+  .mobilio {display: none !important;}
+}
+@media (max-width: 400px) {
+  .mobilio {
+    display: none !important;
+  }
 }
 
 .grid-item {
@@ -4279,3 +4285,4 @@ img,iframe {max-width:100%;}
   justify-content: flex-start;
 }
 .mt-5 {margin-top:50px:}
+

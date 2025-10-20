@@ -1,6 +1,6 @@
 # alfieawards.com
 
-Official site for [https://www.alfieawards.com](https://www.alfieawards.com)
+Official site for [https://www.alfieaward.com](https://www.alfieaward.com)
 
 
 # CHANGELOG
