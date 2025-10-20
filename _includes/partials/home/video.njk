@@ -8,7 +8,7 @@
 >
   <div class="wrapper leftside">
     <div class="inner" data-onvisible-trigger="1">
-      <h3 id="text-video-title" class="style1">{{video.info}}</h3>
+      <h2 id="text-video-title" class="style1">{{video.info}}</h2>
 
       <div class="award-video-container">
         <div class="award-grid">
@@ -33,7 +33,7 @@
 
           <div class="trophy-content">
             <div class="trophy-description pd-5">
-              <h2 id="text-video-subtitle" class="style65">{{video.title}}</h2>
+              <h3 id="text-video-subtitle" class="style65">{{video.title}}</h3>
              <p class="style3">{% for v in video.text %}<span class="p gede">{{v.info|markdown|safe}}</span>{% endfor %}</p>
             </div>
           </div>
