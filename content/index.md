@@ -2,13 +2,11 @@
 layout: start.njk
 title: The Alfie Jacques Ambassador Award
 description: "Please support this new initiative to honor the legacy of the Haudenosaunee stickmaker, Alfie Jacques."
-image: /assets/images/image05.jpg
-
-show_hero_receipents: false
+image: /img/home/image05.jpg
 
 hero:
-  title: Alfie Jacques Ambassador Award #make responsive size and mobile
-  image: /assets/images/image02.jpg
+  title: Alfie Jacques Ambassador Award #already responsive - for desktop and mobile.
+  image: /img/home/image02.jpg
   article:
     text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
     show_button: true
@@ -27,17 +25,6 @@ video:
   title: "The Trophy"
   text:
     - info: 'The Alfie Jacques Ambassador Award was carved from soapstone by <strong><a href="https://www.instagram.com/ryan_sandy_sculptures/" target="_blank">Ryan Sandy</a></strong> of Six Nations.'
-# section 1 needs to be removed and the page needs to remain balanced once it is removed
-section1:
-  section: sid-jamieson
-  inf: 2024 Recipient
-  title: Sid Jamieson
-  image_left_side: true
-  image: /assets/images/image04.jpg
-  text: "Sid Jamieson (Cayuga Nation), the first Indigenous NCAA head coach and first head
-    coach of the Haudenosaunee Nationals, was selected as the
-    inaugural recipient of the
-    **[Alfie Jacques Ambassador Award](#intro)**. The Award was presented during the World Indoor Lacrosse Championships in Utica, N.Y., on Sunday, Sept. 22, 2024. Use the the link below to attend the Monday September 23 award dinner at Breezes in Utica."
 
 show_founding: true
 show_newsletter: true

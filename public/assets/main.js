@@ -3188,4 +3188,37 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
-	
+
+	document.addEventListener("DOMContentLoaded", function() {
+  var lazyVideos = [].slice.call(document.querySelectorAll("video[data-src]"));
+
+  if ("IntersectionObserver" in window) {
+    var lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(video) {
+        if (video.isIntersecting) {
+          var videoSrc = video.target.getAttribute("data-src");
+          var webmSrc = video.target.getAttribute("data-webm");
+          var oggSrc = video.target.getAttribute("data-ogg");
+
+          if (videoSrc) {
+            video.target.querySelector('source[type="video/mp4"]').src = videoSrc;
+          }
+          if (webmSrc) {
+            video.target.querySelector('source[type="video/webm"]').src = webmSrc;
+          }
+           if (oggSrc) {
+            video.target.querySelector('source[type="video/ogg"]').src = oggSrc;
+          }
+
+          video.target.load();
+          video.target.classList.remove("lazy");
+          lazyVideoObserver.unobserve(video.target);
+        }
+      });
+    });
+
+    lazyVideos.forEach(function(lazyVideo) {
+      lazyVideoObserver.observe(lazyVideo);
+    });
+  }
+});

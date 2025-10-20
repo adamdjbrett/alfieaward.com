@@ -1,4 +1,4 @@
-{% if show_sponsor %}<div class="container style3 default full screen purple"
+{% if show_sponsor %}<div class="container style3 default full screen teal"
   data-scroll-id="{{metadata.sponsor.section}}">
 <div class="wrapper">
 <div class="inner">
@@ -9,7 +9,13 @@
 <div class="gallery-grid-item5x5" 
 style="--aspect-ratio: {{post.ratio}}; --gallery-frame-bg: {{post.background}}; --gallery-frame-bg-hover: {{post.hover}};">
 <a href="{{post.url}}" target="_blank" rel="noopener noreferrer">
-<img src="{{post.image}}" alt="{{post.alt}}" class="gallery-img5x5" />
+<img 
+src="{{post.image}}"
+alt="{{post.alt}}"
+loading="lazy"
+data-full="{{post.image}}"
+data-title="{{post.title}}"
+loading="lazy" class="gallery-img5x5" />
 </a>
 </div>
 {% endfor %}
