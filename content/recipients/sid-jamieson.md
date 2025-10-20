@@ -2,7 +2,7 @@
 info: "2024 Recipient"
 title: "Sid Jamieson"
 description: 
-image: "/img/image04.jpg"
+image: "/img/image04.webp"
 image_left_side: false
 download:
  show: true
