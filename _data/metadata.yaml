@@ -1,6 +1,6 @@
 title: "Alfie Jacques Award"
 description: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
-image: "/img/home/image01.jpg"
+image: "/img/home/image01.webp"
 language: "en"
 locale: en_US
 favicon: /img/favicon.png
@@ -62,11 +62,11 @@ founding:
 
 alfie:
   section: alfie
-  logo: /img/home/image01.jpg
+  logo: /img/home/image01.webp
   image_left_side: true
   info: "In honor and in memory of"
   title: Alfie Jacques
-  image: /img/home/image01.jpg
+  image: /img/home/image01.webp
   text: Please give generously to support this award.
   button:
     title: Buy Tickets
@@ -81,31 +81,31 @@ sponsor:
  title: Our Sponsors
  text: The organizing committee would like to thank our sponsors for making our dream of this event a reality.
  logo: 
-   - image: /img/website_logos/NativeVision/NativeVision-01.png
+   - image: /img/website_logos/NativeVision/NativeVision-01.webp
      url: https://cih.jhu.edu/programs/nativevision/
      alt: Nativevision
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/CIH_logo1/CIH_logo_1-01.png
+   - image: /img/website_logos/CIH_logo1/CIH_logo_1-01.webp
      url: https://cih.jhu.edu/
      alt: Johns Hopkins Center for Indigenous Health
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/haudenosaunee_nationals/INL-watermark.png
+   - image: /img/website_logos/haudenosaunee_nationals/INL-watermark.webp
      url: https://www.haudenosauneenationals.com/
      alt: Haduenosaunee Nationals
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/PLL/pll.png
+   - image: /img/website_logos/PLL/pll.webp
      url: https://premierlacrosseleague.com/pll-assists
      alt: PLL Assists
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/USA_Lacrosse/USAL_vertical_rgb_lightbg.png
+   - image: /img/website_logos/USA_Lacrosse/USAL_vertical_rgb_lightbg.webp
      url: https://www.usalacrosse.com/
      alt: USA Lacrosse
      ratio: "1/1"
@@ -117,25 +117,25 @@ sponsor:
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/One_Bowl/One Bowl Final CMYK-Transparent.png
+   - image: /img/website_logos/One_Bowl/One Bowl Final CMYK-Transparent.webp
      url: https://www.onebowlproductions.com/
      alt: One Bowl Productions
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/AILA/AILA-new-circle-logo.jpg
+   - image: /img/website_logos/AILA/AILA-new-circle-logo.webp
      url: https://www.aila.ngo
      alt: American Indian Law Alliance
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/Indigenous_Values/Indigenous-Values-Initiative-new-logo-full-resolution2.png
+   - image: /img/website_logos/Indigenous_Values/Indigenous-Values-Initiative-new-logo-full-resolution2.webp
      url: https://indigenouvalues.org
      alt: Indigenous Values Initiative
      ratio: "1/1"
      background: "#fff"
      hover: "#fff"
-   - image: /img/website_logos/Lacrosse_The_Ancient_Game/LTAG logo-transparent.png
+   - image: /img/website_logos/Lacrosse_The_Ancient_Game/LTAG logo-transparent.webp
      url: https://www.lacrossetheancientgame.com/
      alt: Lacrosse the Ancient Game
      ratio: "1/1"
