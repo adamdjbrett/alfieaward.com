@@ -1,0 +1,47 @@
+---
+layout: base.njk
+---
+<div
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h3 class="style1">{{description}}</h3>
+      <h2 class="style2">{{title}}</h2>
+      <p class="style3">
+        {%- for tag in tags | filterTagList %}{% if tags %}<span class="p"
+          >
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+	</span>{% endif %}{%- endfor %}
+        <span class="p"
+          >{{content|safe}}
+      </p>
+      {%- set previousPost = collections.press | getPreviousCollectionItem %}
+{%- set nextPost = collections.press | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+      <ul class="style1 buttons">
+        {%- if previousPost %}<li>
+          <a href="{{ previousPost.url }}" class="button n01" role="button"
+            ><svg aria-labelledby="buttons01-icon-1-title">
+              <title>Arrow Right (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-left-light"></use></svg
+            ><span class="label">PREVIOUS</span></a
+          >
+        </li>{% endif %}
+        {%- if nextPost %}<li>
+          <a href="{{nextPost.url}}" class="button n01" role="button"
+            ><span class="label">NEXT</span><svg aria-labelledby="buttons01-icon-1-title">
+              <title>Arrow Right (Light)</title>
+              <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
+            ></a
+          >
+        </li>{% endif %}
+       {%- endif %}
+      </ul>
+    </div>
+  </div>
+</div>
