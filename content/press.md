@@ -17,7 +17,7 @@ show_founding: false
 show_newsletter: false
 show_alfie: false
 ---
-<div class="container default full screen">
+<div class="container default screen">
 <div class="wrapper">
 <div class="inner">
 <div class="press-section">
@@ -31,12 +31,11 @@ show_alfie: false
 {% if post.data.image %}<img src="{{post.data.image}}" 
 class="press-image"
 alt="{{post.data.title}}" width="100%" height="100%"/>{% endif %}
-<h2>{{post.data.title}}</h2>
-<p class="mbm">{{post.data.description}}</p>
+<h3>{{post.data.title}}</h3>
+<!-- <p class="mbm small">{{post.data.description}}</p> -->
 </a>
 </div>
 {% endfor %}
-
 </div>
 </div>
 
