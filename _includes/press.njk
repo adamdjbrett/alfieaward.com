@@ -11,6 +11,7 @@ layout: base.njk
     <div class="inner" data-onvisible-trigger="1">
       <h3 class="style1">{{description}}</h3>
       <h2 class="style2">{{title}}</h2>
+	  {% if image %}<img class="img-poster" alt="{{title}}" src="{{image}}"/>{% endif %}  
       <p class="style3">
         {%- for tag in tags | filterTagList %}{% if tags %}<span class="p"
           >
