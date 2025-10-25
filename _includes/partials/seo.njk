@@ -19,7 +19,7 @@
 <meta content="{{metadata.metasocial.twitteruser}}" property="twitter:author">
 <meta content="{{metadata.metasocial.twitter}}" name="twitter:site">
 <meta property="og:type" content="website">
-<link rel="canonical" href="{{metadata.url}}{{page.url}}"/>
+<link rel="canonical" href="{% if canonical_url %}{{ canonical_url }}{% else %}{{ metadata.url }}{{ page.url }}{% endif %}"/>
 <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 <meta name="language" content="{{metadata.language}}">
 <meta name="locale" content="{{metadata.locale}}">

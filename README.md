@@ -5,6 +5,16 @@ Official site for [https://www.alfieaward.com](https://www.alfieaward.com)
 
 # CHANGELOG
 
+25 Oct 2025
+
++ Add Press Collections
++ Adding Layout themes Press Collections
++ Add Press List
++ Update CSS for press
++ Add press in to backend cms
++ Add canoncial_url frontmatter on press and others pages / posts
++ Update the backend CMS
+
 20 Oct 2025
 
 + Remove section1

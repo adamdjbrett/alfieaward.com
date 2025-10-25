@@ -38,6 +38,8 @@ navbar:
       url: /#sponsors
     - nav: Support
       url: /#goal
+    - nav: Press
+      url: /press
   button:
     title: Buy Tickets
     url: "https://givebutter.com/alfaward"
