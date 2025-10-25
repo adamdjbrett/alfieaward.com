@@ -4138,12 +4138,12 @@ img,iframe {max-width:100%;}
 }
 .mbb-5 {margin-bottom: 30px;}
 .press-section {
-  margin-top: -120px;
+  margin-top: 120px;
 }
 
 .press-grid-5x5 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
   padding: 20px;
   width: 100%;
