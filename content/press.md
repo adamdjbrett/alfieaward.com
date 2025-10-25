@@ -36,7 +36,6 @@ alt="{{post.data.title}}" width="100%" height="100%"/>{% endif %}
 </a>
 </div>
 {% endfor %}
-
 </div>
 </div>
 
