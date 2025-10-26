@@ -4,8 +4,8 @@ description: "The two formed a lifelong friendship that stems from their days st
 date: 2025-06-11
 image: /img/su-logo-orange.svg
 button: 
- text: 
- url: 
+ text: REad more at Syracuse University News
+ url: https://news.syr.edu/2025/06/11/oren-lyons-jr-roy-simmons-jr-honored-with-alfie-jacques-ambassador-award/
 canonical_url: https://news.syr.edu/2025/06/11/oren-lyons-jr-roy-simmons-jr-honored-with-alfie-jacques-ambassador-award/
 show_founding: false
 show_newsletter: false

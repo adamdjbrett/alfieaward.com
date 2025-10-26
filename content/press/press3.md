@@ -4,8 +4,8 @@ description: "Two old friends speak to the spiritual and natural meaning lived o
 date: 2025-08-31
 image: /img/Central-Current-Logo-Black.webp
 button: 
- text: 
- url: 
+ text: Read More on Central Current
+ url: https://centralcurrent.org/sean-kirst-for-oren-lyons-and-roy-simmons-jr-alfie-jacques-award-all-about-his-knowledge-of-true-value/
 canonical_url: https://centralcurrent.org/sean-kirst-for-oren-lyons-and-roy-simmons-jr-alfie-jacques-award-all-about-his-knowledge-of-true-value/
 show_founding: false
 show_newsletter: false

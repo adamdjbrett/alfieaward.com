@@ -4,7 +4,7 @@ description: "At a high place at Onondaga Valley Cemetery, Roy Simmons Jr. and h
 date: 2025-10-20
 image: /img/Central-Current-Logo-Black.webp
 button: 
- text: Read Original Article
+ text: Read the Original Article
  url: https://centralcurrent.org/sean-kirst-on-valley-hillside-bond-of-revered-lacrosse-coach-beloved-stickmaker-lives-on-in-one-young-tree/
 canonical_url: https://centralcurrent.org/sean-kirst-on-valley-hillside-bond-of-revered-lacrosse-coach-beloved-stickmaker-lives-on-in-one-young-tree/
 show_founding: false
