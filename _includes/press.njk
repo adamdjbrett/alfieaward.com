@@ -21,6 +21,11 @@ layout: base.njk
         <span class="p"
           >{{content|safe}}
       </p>
+	   {% if button %}
+		   <p class="buttons">
+		   <a href="{{ button.url }}" class="btn" role="button">
+			<span class="label">{{button.text}}</span></a></p>
+		  {% endif %}
       {%- set previousPost = collections.press | getPreviousCollectionItem %}
 {%- set nextPost = collections.press | getNextCollectionItem %}
 {%- if nextPost or previousPost %}

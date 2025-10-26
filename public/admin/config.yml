@@ -335,6 +335,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Canonical Url", name: "canonical_url", widget: "string" }
+      - label: "Button"
+        name: "bvutton" 
+        widget: "object"
+        fields: 
+          - { label: "Button Text", name: "text" , widget: "string" }
+          - { label: "Button URL", name: "url" , widget: "string" }
       - { label: "Publication Date", name: "date", widget: "datetime" }
       - { label: "Show Founding", name: "show_founding", widget: "boolean", default: true }
       - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: true }
@@ -403,6 +409,27 @@ collections:
           - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
           - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean", default: false }
 
+  - name: "presspages"
+    label: "Press Setup"
+    editor:
+      preview: false 
+    files:
+      - file: "content/press.md"
+        label: "Press Page Setup"
+        name: "pressSetup"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - { label: "Size", name: "size", widget: "number", value_type: "int" }
+              - { label: "Reverse", name: "reverse", widget: "boolean" }
+          - { label: "Show Founding", name: "show_founding", widget: "boolean", default: false }
+          - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
+          - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
+          - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean", default: false }
 
   - name: "galerypages"
     label: "Gallery Setup"

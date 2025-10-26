@@ -3,6 +3,9 @@ title: "Roy Simmons Jr., Oren Lyons honored with Alfie Jacques Ambassador Award"
 description: "Legendary Syracuse lacrosse coach Roy Simmons Jr. and Haudenosaunee Faithkeeper Oren Lyons received the 2025 Alfie Jacques Ambassador Award on Friday"
 image: /img/daily-orange.webp
 canonical_url: 
+button: 
+ text: 
+ url: 
 date: 2025-09-12
 show_founding: false
 show_newsletter: false
