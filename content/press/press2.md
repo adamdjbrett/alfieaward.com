@@ -1,5 +1,5 @@
 ---
-title: "Oren Lyons Jr., Roy Simmons Jr. Honored With Alfie Jacques Ambassador Award"
+title: "Oren Lyons, Roy Simmons Jr. Honored With Alfie Jacques Ambassador Award"
 description: "The two formed a lifelong friendship that stems from their days starring for the Syracuse University men’s lacrosse team from 1955-58."
 date: 2025-06-11
 image: /img/su-logo-orange.svg
