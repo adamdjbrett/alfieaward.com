@@ -17,21 +17,21 @@ show_founding: false
 show_newsletter: false
 show_alfie: false
 ---
-<div class="container default screen">
+<div class="container default full screen">
 <div class="wrapper">
 <div class="inner">
 <div class="press-section">
 <h2 class="style2" style="text-align: center">{{title}}</h2>
 <p class="style3 mbb-5" style="text-align: center">{{description}}</p>
 </div>
-<div class="press-grid-5x5">
+<div class="press-grid-5x5" style="width:80%; justify-content:center;">
 {% for post in pagination.items | reverse %}
 <div class="press-grid-item5x5">
 <a href="{{post.url}}">
 {% if post.data.image %}<img src="{{post.data.image}}" 
 class="press-image"
 alt="{{post.data.title}}" width="100%" height="100%"/>{% endif %}
-<h3>{{post.data.title}}</h3>
+<h3 class="press-text">{{post.data.title}}</h3>
 <!-- <p class="mbm small">{{post.data.description}}</p> -->
 </a>
 </div>

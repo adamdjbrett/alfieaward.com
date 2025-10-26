@@ -5,6 +5,13 @@ Official site for [https://www.alfieaward.com](https://www.alfieaward.com)
 
 # CHANGELOG
 
+26 Oct 2025
+
++ Fix Press Layout
++ Adding Button Canoncial URL on press post
++ Add Press setup page on CMS
++ Update press content on cms
+
 25 Oct 2025
 
 + Add Press Collections

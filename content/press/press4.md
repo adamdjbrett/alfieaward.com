@@ -3,6 +3,9 @@ title: "On Valley hillside, bond of revered lacrosse coach, beloved stickmaker l
 description: "At a high place at Onondaga Valley Cemetery, Roy Simmons Jr. and his sons plant a tiny hickory sapling in honor of Alf Jacques."
 date: 2025-10-20
 image: /img/Central-Current-Logo-Black.webp
+button: 
+ text: Read Original Article
+ url: https://centralcurrent.org/sean-kirst-on-valley-hillside-bond-of-revered-lacrosse-coach-beloved-stickmaker-lives-on-in-one-young-tree/
 canonical_url: https://centralcurrent.org/sean-kirst-on-valley-hillside-bond-of-revered-lacrosse-coach-beloved-stickmaker-lives-on-in-one-young-tree/
 show_founding: false
 show_newsletter: false

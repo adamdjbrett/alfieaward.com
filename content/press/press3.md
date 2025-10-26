@@ -3,6 +3,9 @@ title: "For Oren Lyons and Roy Simmons Jr., Alfie Jacques Award all about his kn
 description: "Two old friends speak to the spiritual and natural meaning lived out by a legendary artisan of wooden lacrosse sticks."
 date: 2025-08-31
 image: /img/Central-Current-Logo-Black.webp
+button: 
+ text: 
+ url: 
 canonical_url: https://centralcurrent.org/sean-kirst-for-oren-lyons-and-roy-simmons-jr-alfie-jacques-award-all-about-his-knowledge-of-true-value/
 show_founding: false
 show_newsletter: false
