@@ -36,3 +36,7 @@ Beyond Ireland, Kennedy has been a key contributor to the reform of internationa
 As a recipient of the Alfie Jacques Ambassador Award, Michael Kennedy is recognized not only for what he built, but for how he led---demonstrating that the growth of lacrosse carries an obligation to history, culture, and ethical responsibility. His career stands as a model for principled leadership in the global game.
 
 The 2026 Alfie Jacques Ambassador Award ceremony will be held in Syracuse, New York, on September 11. Visit [www.alfieaward.com](http://www.alfieaward.com/) for more information.
+
+```
+Ireland photos by Tom Beary
+```
