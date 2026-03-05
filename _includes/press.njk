@@ -9,10 +9,10 @@ layout: base.njk
 >
   <div class="wrapper">
     <div class="inner" data-onvisible-trigger="1">
-      <h3 class="style1">{{description}}</h3>
-      <h2 class="style2">{{title}}</h2>
+      <h3 class="style1" style="text-align: left">{{description}}</h3>
+      <h2 class="style2" style="text-align: left">{{title}}</h2>
 	  {% if image %}<img class="img-poster" alt="{{title}}" src="{{image}}"/>{% endif %}  
-      <p class="style3">
+      <p class="style3" style="text-align: left; padding-inline: 1.25rem;">
         {%- for tag in tags | filterTagList %}{% if tags %}<span class="p"
           >
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}

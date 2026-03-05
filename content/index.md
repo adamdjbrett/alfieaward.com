@@ -10,8 +10,8 @@ announcement:
     text: "The Alfie Jacques Ambassador Award proudly announces that its 2026 recipients are Dom Starsia, Michael Kennedy, and Mike Kanatakeron Mitchell. In its third year, the award recognizes recipients whose contributions span the globe: a college coach who shaped generations of players, an international leader who has helped lacrosse broaden its international reach with integrity, and a Haudenosaunee ambassador whose presence affirms the game’s living roots."
     show_button: true
     button1:
-      text: "Download the Press Release"
-      url: /pdfs/2026-pressrelease.pdf
+      text: "Meet the Recipents"
+      url: /press/2026-receipents/
 hero:
   title: Alfie Jacques Ambassador Award #already responsive - for desktop and mobile.
   image: /img/home/image02.webp

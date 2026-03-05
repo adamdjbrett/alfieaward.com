@@ -10,7 +10,6 @@ canonical_url: https://centralcurrent.org/sean-kirst-on-valley-hillside-bond-of-
 show_founding: false
 show_newsletter: false
 show_alfie: false
-published: false
 ---
 > Roy Jr., the legendary artist and coach who shaped a Syracuse University lacrosse dynasty, took that ride on a recent Sunday in the company of his sons, Roy III and Ron. They parked on a little road that required an uphill walk on a grassy incline to reach the grave of Alf Jacques, only a few steps from the rustling shade of the old woods on the edge of the property.
 >

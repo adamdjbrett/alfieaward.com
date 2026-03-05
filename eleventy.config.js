@@ -11,6 +11,10 @@ import pluginFilters from "./_config/filters.js";
 import markdownIt from "markdown-it";
 export default async function (eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+		if (data.published === false) {
+			return false;
+		}
+
 		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
 		}

@@ -23,7 +23,7 @@ navbar:
     nav: About
     url: /#about
   nav_recipients: 
-   title: "Past Recipients"
+   title: "Recipients"
    list: 
     - nav: Dom Starsia
       url: /recipients/dom-starsia

@@ -1,0 +1,35 @@
+---
+layout: base.njk
+---
+<div
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style6 container default full screen"
+>
+  <div class="wrapper">
+    <div class="inner" data-onvisible-trigger="1">
+      <h1 id="text13" class="style2" style="text-align: left">{{ title }}</h1>
+      <h2 class="style1" style="text-align: left">{{ description }}</h2>
+      {% if image %}
+      <img src="{{ image }}" alt="{{ title }}" class="3image full" />
+      {% endif %}
+      <div
+        id="text31"
+        class="style3"
+        style="text-align: left; padding-inline: 2rem;"
+      >
+        {{ content | safe }}
+      </div>
+      {% if download and download.show %}
+      <ul class="style1 buttons">
+        <li>
+          <a href="{{ download.url }}" class="button n01" role="button">
+            <span class="label">{{ download.title }}</span>
+          </a>
+        </li>
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</div>

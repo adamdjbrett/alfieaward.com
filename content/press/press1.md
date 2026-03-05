@@ -10,7 +10,6 @@ date: 2025-09-12
 show_founding: false
 show_newsletter: false
 show_alfie: false
-published: false
 ---
 > Roy Simmons Jr. remained seated as he spoke, for the 90-year-old’s voice is now much stronger than his legs. Simmons Jr. held his microphone tightly, surrounded by his loved ones as he accepted the Alfie Jacques Ambassador Award.
 > There was an extra guest at the table, too. A green pot rested in front of him, a hickory sapling sprouting from it.

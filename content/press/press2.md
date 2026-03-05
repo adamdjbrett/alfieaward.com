@@ -10,6 +10,5 @@ canonical_url: https://news.syr.edu/2025/06/11/oren-lyons-jr-roy-simmons-jr-hono
 show_founding: false
 show_newsletter: false
 show_alfie: false
-published: false
 ---
 > The dynamic duo captured multiple All-American honors playing for the Orange and have remained friends through their shared experiences with the lacrosse program.

@@ -10,7 +10,6 @@ canonical_url: https://centralcurrent.org/sean-kirst-for-oren-lyons-and-roy-simm
 show_founding: false
 show_newsletter: false
 show_alfie: false
-published: false
 ---
 > Oren Lyons and Roy Simmons Jr. have already experienced what might seem like the ultimate forms of tribute. There’s a building named for Lyons, an internationally renowned faithkeeper from the Onondaga Nation, at Syracuse University. A statue of Simmons, alongside a matching one of his late father — they both were lacrosse-coaching legends at SU — keeps vigil on Orange student-athletes as they come and go from practice.
 > 
