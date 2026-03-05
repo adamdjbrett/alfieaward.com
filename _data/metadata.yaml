@@ -25,6 +25,12 @@ navbar:
   nav_recipients: 
    title: "Past Recipients"
    list: 
+    - nav: Dom Starsia
+      url: /recipients/dom-starsia
+    - nav: Michael Kennedy
+      url: /recipients/michael-kennedy
+    - nav: Mike Kanatakeron Mitchell
+      url: /recipients/mike-kanatakeron-mitchell
     - nav: Sid Jamieson
       url: /recipients/sid-jamieson
     - nav: Roy Simmons Jr.
