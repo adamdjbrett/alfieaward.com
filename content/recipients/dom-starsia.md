@@ -14,8 +14,6 @@ button:
  url: "#introduction"
 published: true
 ---
-## Annoucting 2026 Co-Recepient: Dom Starsia
- 
 Nedrow, NY –– For more than three decades, Dom Starsia stood at the center of American lacrosse not merely as a coach, but as an advocate of the game's deeper meaning.
   
 As the longtime head coach of the University of Virginia, Starsia helped define an era marked by excellence and a reverence for lacrosse as more than competition alone.

@@ -1,6 +1,6 @@
 ---
-title: "2026: Press Release Opening"
-description: "The Alfie Jacques Ambassador Award proudly announces that its 2026 recipients are Dom Starsia, Michael Kennedy, and Mike Kanatakeron Mitchell."
+title: "Annoucing 2026 Receipents"
+description: "Dom Starsia, Michael Kennedy, and Mike Kanatakeron Mitchell."
 date: 2026-03-05
 image: /img/2026.jpg
 #button: 

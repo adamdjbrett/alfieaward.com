@@ -14,8 +14,6 @@ button:
  url: "#introduction"
 published: true
 ---
-## Annoucing 2026 Co-Recepient: Michael Kennedy
-
 Nedrow, NY –– Michael Kennedy has had a sustained and influential impact on the International lacrosse landscape.
 
 As Founder and Chief Executive Officer of Ireland Lacrosse, and as a long-serving player, captain, coach and referee at many levels, Kennedy's career reflects a rare combination of competitive experience, institutional leadership, and stewardship of the game.

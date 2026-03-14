@@ -4,10 +4,10 @@ title: The Alfie Jacques Ambassador Award
 description: "Please support this new initiative to honor the legacy of the Haudenosaunee stickmaker, Alfie Jacques."
 image: /img/home/image05.webp
 announcement:
-  title: "Announcing the 2026 Recipients"
+  title: "Announcing 2026 Recipients"
   image: /img/2026.jpg
   article:
-    text: "The Alfie Jacques Ambassador Award proudly announces that its 2026 recipients are Dom Starsia, Michael Kennedy, and Mike Kanatakeron Mitchell. In its third year, the award recognizes recipients whose contributions span the globe: a college coach who shaped generations of players, an international leader who has helped lacrosse broaden its international reach with integrity, and a Haudenosaunee ambassador whose presence affirms the game’s living roots."
+    text: "Meet Dom Starsia, Michael Kennedy, and Mike Kanatakeron Mitchell."
     show_button: true
     button1:
       text: "Meet the Recipents"

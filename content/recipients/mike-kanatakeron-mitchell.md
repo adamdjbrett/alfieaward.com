@@ -14,10 +14,6 @@ button:
  url: "#introduction"
 published: true
 ---
-## Annoucting 2026 Co-Receipeint: Michael Kanatakeron Mitchell
-
-Michael Kanatakeron Mitchell
-
 Nedrow, NY --- Faithkeeper Michael Kanatakeron Mitchell of the Akwesasne Mohawk Nation is known as one of the great builders in lacrosse history.
 
 He has spent his life serving the game of lacrosse with a clarity of purpose that reflects the deepest intent of the Creator's Game. Coming from a lacrosse stick-making family, the soft-spoken leader has emphasized responsibility over recognition, community over self, and continuity over convenience---principles that mirror the original purpose of lacrosse as a ceremonial and spiritual practice.
