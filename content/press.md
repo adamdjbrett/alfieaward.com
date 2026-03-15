@@ -20,9 +20,9 @@ show_alfie: false
 <div class="container default full screen">
 <div class="wrapper">
 <div class="inner">
-<div class="press-section">
-<h2 class="style2" style="text-align: left">{{title}}</h2>
-<p class="style3 mbb-5" style="text-align: left; padding-inline: 1.25rem;">{{description}}</p>
+<div class="press-section centeris p-3">
+<h2 class="style2">{{title}}</h2>
+<p class="style3 mbb-5">{{description}}</p>
 </div>
 <div class="press-grid-5x5" style="width:100%; justify-content:flex-start;">
 {% for post in pagination.items %}
@@ -38,7 +38,9 @@ alt="{{post.data.title}}" width="100%" height="100%"/>{% endif %}
 {% endfor %}
 </div>
 </div>
-
+{% if metadata.widget.press.show %}<div class="style1 buttons">
+{{metadata.widget.press.text}} <a href="{{metadata.widget.press.url}}">{{metadata.widget.press.info}}</a>
+</div>{% endif %}
       <ul class="style1 buttons">
        {% if pagination.href.previous %} <li>
           <a href="{{ pagination.href.previous }}" class="button n01" role="button"

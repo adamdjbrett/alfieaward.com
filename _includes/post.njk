@@ -18,7 +18,7 @@ layout: base.njk
 	<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 	</span>{% endif %}{%- endfor %}
         <span class="p"
-          >{{content|safe}}
+          >{{content|safe}}</span>
       </p>
       {%- set previousPost = collections.posts | getPreviousCollectionItem %}
 {%- set nextPost = collections.posts | getNextCollectionItem %}
