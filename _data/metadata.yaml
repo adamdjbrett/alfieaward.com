@@ -180,3 +180,10 @@ author:
   email: "info@adamdjbrett.com"
   url: "https://www.adamdjbrett.com"
   phone: "+13154433863"
+
+widget: 
+ press: 
+   show: true
+   text: "add For more please contact: "
+   info: "Robert Carpenter"
+   url: "carplaxr@icloud.com"

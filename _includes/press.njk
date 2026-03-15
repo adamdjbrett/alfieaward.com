@@ -9,23 +9,26 @@ layout: base.njk
 >
   <div class="wrapper">
     <div class="inner" data-onvisible-trigger="1">
-      <h3 class="style1" style="text-align: left">{{description}}</h3>
-      <h2 class="style2" style="text-align: left">{{title}}</h2>
+      <h3 class="style1">{{description}}</h3>
+      <h2 class="style2">{{title}}</h2>
 	  {% if image %}<img class="img-poster" alt="{{title}}" src="{{image}}"/>{% endif %}  
-      <p class="style3" style="text-align: left; padding-inline: 1.25rem;">
+      <p class="style3">
         {%- for tag in tags | filterTagList %}{% if tags %}<span class="p"
           >
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 	</span>{% endif %}{%- endfor %}
-        <span class="p"
-          >{{content|safe}}
-      </p>
+        <div class="press-content">{{content|safe}}</div>
 	   {% if button.text %}
 		   <p class="buttons">
 		   <a href="{{ button.url }}" class="btn" role="button" tareget="_blank">
 			<span class="label">{{ button.text }}</span></a></p>
 		  {% endif %}
+      
+      {% if metadata.widget.press.show %}<div class="style1 buttons">
+{{metadata.widget.press.text}} <a href="{{metadata.widget.press.url}}">{{metadata.widget.press.info}}</a>
+</div>{% endif %}
+
       {%- set previousPost = collections.press | getPreviousCollectionItem %}
 {%- set nextPost = collections.press | getNextCollectionItem %}
 {%- if nextPost or previousPost %}
