@@ -16,28 +16,58 @@
         {% endif %}
         {% if announcement.article and announcement.article.show_button %}
         <ul class="style1 buttons">
+          
           {% if announcement.article.button1 and announcement.article.button1.url %}
           <li>
             <a href="{{announcement.article.button1.url}}" class="button n01" role="button">
+              {% if announcement.article.button1.icon %}
+              <img src="{{announcement.article.button1.icon}}" witdh="20" height="20" style="padding-right:12px;"
+              alt="{{announcement.article.button1.text}}"/>
+              {% else %}
               <svg aria-labelledby="buttons06-icon-1-title">
                 <title>Arrow Down (Light)</title>
                 <use xlink:href="/assets/icons.svg#arrow-down-light"></use>
               </svg>
+              {% endif %}
               <span class="label">{{announcement.article.button1.text}}</span>
             </a>
           </li>
           {% endif %}
+
           {% if announcement.article.button2 and announcement.article.button2.url %}
           <li>
             <a href="{{announcement.article.button2.url}}" class="button n02" role="button">
+              {% if announcement.article.button2.icon %}
+              <img src="{{announcement.article.button2.icon}}" witdh="20" height="20" style="padding-right:12px;"
+              alt="{{announcement.article.button2.text}}"/>
+              {% else %}
               <svg aria-labelledby="buttons01-icon-2-title">
                 <title>Heart</title>
                 <use xlink:href="/assets/icons.svg#heart"></use>
               </svg>
+              {% endif %}
               <span class="label">{{announcement.article.button2.text}}</span>
             </a>
           </li>
           {% endif %}
+
+           {% if announcement.article.button3 and announcement.article.button3.url %}
+          <li>
+            <a href="{{announcement.article.button3.url}}" class="button n01" role="button">
+              {% if announcement.article.button3.icon %}
+              <img src="{{announcement.article.button3.icon}}" witdh="20" height="20" style="padding-right:12px;"
+              alt="{{announcement.article.button3.text}}"/>
+              {% else %}
+              <svg aria-labelledby="buttons06-icon-1-title">
+                <title>Arrow Down (Light)</title>
+                <use xlink:href="/assets/icons.svg#arrow-down-light"></use>
+              </svg>
+              {% endif %}
+              <span class="label">{{announcement.article.button3.text}}</span>
+            </a>
+          </li>
+          {% endif %}
+
         </ul>
         {% endif %}
       </div>
