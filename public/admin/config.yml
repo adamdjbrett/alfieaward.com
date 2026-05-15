@@ -292,7 +292,6 @@ collections:
             widget: "list"
             fields:
               - { label: "Info", name: "info", widget: "string" }
-      - { label: "Publication Date", name: "date", widget: "datetime" }
       - { label: "Show Founding", name: "show_founding", widget: "boolean" }
       - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean" }
       - { label: "Show Alfie", name: "show_alfie", widget: "boolean" }
@@ -446,5 +445,4 @@ collections:
           - { label: "Show Newsletter", name: "show_newsletter", widget: "boolean", default: false }
           - { label: "Show Alfie", name: "show_alfie", widget: "boolean", default: false }
           - { label: "Show Sponsor", name: "show_sponsor", widget: "boolean", default: false }
-
 

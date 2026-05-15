@@ -2,12 +2,11 @@
 title: Award Details
 description: Alfie Jacques Ambassador Award Dinner Details
 event:
-  date: September 11, 2026
+  date: "September 11, 2026"
   time: 05:00PM
   location:
     - info: "Bellevue Country Club"
     - info: "1901 Glenwood Ave, Syracuse, NY 13207"
-date: 2026-03-13
 show_founding: true
 show_newsletter: true
 show_alfie: true

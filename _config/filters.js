@@ -12,7 +12,11 @@ export default function (eleventyConfig) {
 	eleventyConfig.addCollection("awards", (collectionApi) =>
 		collectionApi
 			.getFilteredByGlob("content/award/*.md")
-			.sort((a, b) => b.date - a.date)
+			.sort(
+				(a, b) =>
+					Date.parse(b.data.event?.date || "") -
+					Date.parse(a.data.event?.date || "")
+			)
 	);
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");

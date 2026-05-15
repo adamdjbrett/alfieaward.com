@@ -17,7 +17,6 @@ show_founding: false
 show_newsletter: false
 show_alfie: false
 ---
-
 {% for post in pagination.items | reverse %}
 
 <div
@@ -33,7 +32,7 @@ show_alfie: false
       <p class="style3">
         {{content|safe}}
         <span class="p">
-          <strong>Publish:</strong> <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("dd LLLL yyyy") }}</time><br />
+          <strong>Date:</strong> {{post.data.event.date}}<br />
           <strong>Time:</strong> {{post.data.event.time}}<br />
           <strong>Location:</strong> {% for s in post.data.event.location %}
           <br />{{s.info}} {% endfor %}
