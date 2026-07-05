@@ -30,3 +30,28 @@
 <link rel="stylesheet" href="/assets/main.css" />
 <noscript><link rel="stylesheet" href="/assets/noscript.css" /></noscript>
 {%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
+
+{% set isCitable = layout == 'post' or layout == 'press' or "posts" in (tags or []) or "press" in (tags or []) %}
+{% if isCitable %}
+{% set pageCanonical = canonical_url or metadata.url + page.url %}
+{% set itemType = "NewsArticle" if (layout == 'press' or "press" in (tags or [])) else "BlogPosting" %}
+{% set zoteroType = "newspaperArticle" if itemType == "NewsArticle" else "blogPost" %}
+<link rel="cite-as" href="{{ pageCanonical }}">
+<link rel="type" href="https://schema.org/{{ itemType }}">
+<link rel="author" href="{{ metadata.url }}">
+<link rel="describedby" type="application/ld+json" profile="https://schema.org/" href="{{ page.url }}metadata.json">
+<meta property="zotero:itemType" content="{{ zoteroType }}" />
+<meta property="dc:title" content="{{ (title or metadata.title) | escape }}" />
+<meta property="dc:creator" content="{{ metadata.title | escape }}" />
+{% if date %}<meta property="dc:date" content="{{ date | htmlDateString }}" />{% endif %}
+<meta property="dc:language" content="{{ metadata.language }}" />
+<meta property="dc:identifier" content="{{ pageCanonical }}" />
+<meta name="citation_title" content="{{ (title or metadata.title) | escape }}" />
+<meta name="citation_author" content="{{ metadata.title | escape }}" />
+{% if date %}<meta name="citation_publication_date" content="{{ date | htmlDateString }}" />{% endif %}
+<meta name="citation_fulltext_html_url" content="{{ pageCanonical }}" />
+<meta name="citation_public_url" content="{{ pageCanonical }}" />
+<meta name="citation_language" content="{{ metadata.language }}" />
+<meta name="prism.genre" content="{% if itemType == 'NewsArticle' %}article{% else %}blogentry{% endif %}" />
+<meta name="prism.publicationName" content="{{ metadata.title | escape }}" />
+{% endif %}

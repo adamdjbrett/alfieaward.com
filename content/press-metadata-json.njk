@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections.press
+  size: 1
+  alias: post
+permalink: "{{ post.url }}metadata.json"
+layout: false
+eleventyExcludeFromCollections: true
+---
+{% set jsonldType = "NewsArticle" %}
+{% include "partials/post-jsonld.njk" %}
