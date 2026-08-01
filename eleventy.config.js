@@ -2,7 +2,7 @@ import {
 	IdAttributePlugin,
 	InputPathToUrlTransformPlugin,
 	HtmlBasePlugin,
-} from "@11ty/eleventy";
+} from "@awesome.me/buildawesome";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";

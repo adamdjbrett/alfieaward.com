@@ -57,13 +57,12 @@ founding:
   title: Funding Goal
   article:
     - text: "The award ceremony will include a dinner where Alfie’s closest family, friends and supporters of this mission will gather. The event will include marketing, promotional videos and an Alfie Jacques Youth scholarship."
-    - text: "This fundraiser is being supported by the [American Indian Law Alliance](https://aila.ngo). Their fiscal sponsor is the [Indigenous Values Initiative](https://indigenousvalues.org)"
+    - text: "This fundraiser is being supported by the [American Indian Law Alliance](https://aila.ngo)."
     - text: "**Donate by Mail**"
     - text: "To send donations by check, please mail to:"
     - text: "American Indian Law Alliance"
     - text: "c/o Alfie Jacques Ambassador Award"
     - text: "305 Vine St. Suite #3, Liverpool, NY 13088"
-    - text: "Checks should be addressed to our fiscal sponsor the Indigenous Values Initiative."
   button:
     title: Email List
     url: "#alfie"
