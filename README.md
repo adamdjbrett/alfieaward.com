@@ -1,4 +1,4 @@
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/adamdjbrett/alifeaward.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4c3b173b-01ac-4460-b8df-b545bfea5659/deploy-status)](https://app.netlify.com/projects/alfieaward/deploys)
 
 # alfieawards.com
 
