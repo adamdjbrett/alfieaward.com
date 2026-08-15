@@ -1,5 +1,5 @@
 ---
-title: Award Details
+title: Dinner Details
 description: Alfie Jacques Ambassador Award Dinner Details
 event:
   date: "September 11, 2026"

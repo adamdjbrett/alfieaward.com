@@ -8,6 +8,8 @@
     "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 buildawesome",
     "build-ghpages": "buildawesome --pathprefix=/alfieawards.com/",
     "start": "buildawesome --serve --quiet",
+    "dev": "buildawesome --serve --quiet",
+    "DEV": "buildawesome --serve --quiet",
     "start-ghpages": "buildawesome --pathprefix=/alfieawards.com/ --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* buildawesome",
     "debugstart": "cross-env DEBUG=Eleventy* buildawesome --serve --quiet",

@@ -26,12 +26,12 @@ hero:
   image: /img/home/image02.webp
   article:
     text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
-    show_button: true
-    button1:
-      text: Trophy
-      url: "#video"
+    #show_button: false
+    #button1:
+      #text: Trophy
+      #url: "#video"
     button2:
-      text: Give Now
+      text: "Donate & Buy Tickets"
       url: https://givebutter.com/alfaward
 
 video:
