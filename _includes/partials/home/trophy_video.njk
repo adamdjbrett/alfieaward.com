@@ -1,0 +1,44 @@
+<div
+  id="{{trophy_video.section}}"
+  data-scroll-id="trophy"
+  data-scroll-behavior="default"
+  data-scroll-offset="0"
+  data-scroll-speed="3"
+  class="style3 container default full screen teal"
+>
+  <div class="wrapper leftside">
+    <div class="inner" data-onvisible-trigger="1">
+      <h2 id="text-video-title" class="style1">{{trophy_video.info}}</h2>
+
+      <div class="award-video-container">
+        <div class="award-grid">
+          <div class="video-wrapper" style="--aspect-ratio: 4/3">
+           <!--  <iframe
+              src="{{trophy_video.media}}"
+              title="{{trophy_video.title}}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe> -->
+<video controls style="width:100%; height:auto;" data-src="{{trophy_video.mp4}}" data-webm="{{trophy_video.media}}" data-ogg="{{trophy_video.ogg}}" loading="lazy">
+  <source data-src="{{trophy_video.mp4}}" type="video/mp4">
+  <source data-src="{{trophy_video.media}}" type="video/webm">
+  <source data-src="{{trophy_video.ogg}}" type="video/ogg">
+  Your browser does not support HTML 5 Video.
+  <a href="{{trophy_video.media}}">Download</a> the video.
+  Your Browser not support video embed.
+</video>
+          </div>
+
+          <div class="trophy-content">
+            <div class="trophy-description pd-5">
+              <h3 id="text-video-subtitle" class="style65">{{trophy_video.title}}</h3>
+             <p class="style3">{% for v in trophy_video.text %}<span class="p gede">{{v.info|markdown|safe}}</span>{% endfor %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

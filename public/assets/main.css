@@ -4416,3 +4416,20 @@ a.btn:hover ,.btn:hover { background-color: black; color:white;}
     margin-bottom: 1.5rem;
     padding-left: 20px;
 }
+/* Bunny Stream embed: player colour itself is set in the Bunny library (Player > primary colour #b39dc5) */
+.bunny-video {
+	max-width: 960px;
+	margin: 0 auto;
+	border: 1.5px solid #000000;
+	border-radius: 8px;
+	overflow: hidden;
+	background: #000000;
+	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+.bunny-video-credit {
+	max-width: 960px;
+	margin: 0.75rem auto 0;
+	color: #000000;
+	font-size: 0.85em;
+	text-align: right;
+}

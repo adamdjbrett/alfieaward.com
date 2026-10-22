@@ -2,7 +2,7 @@
 info: "Michael Kanatakeron Mitchell"
 title: "Michael Kanatakeron Mitchell"
 description: 
-image: "/img/2026/mike6.jpg"
+image: "/img/2026/mike6.webp"
 image_left_side: false
 #download:
  #show: true

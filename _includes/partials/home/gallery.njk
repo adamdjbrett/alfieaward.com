@@ -1,15 +1,16 @@
-<div id="gallery-section" class="container style3 default full screen teal">
+<div id="gallery-section" class="container style3 default full screen purple">
   <div class="wrapper">
     <div class="inner">
       <h2 class="style2" style="text-align: center">Gallery</h2>
       
       <div class="custom-gallery">
-        {% for post in collections.galleries | reverse | limit(8) %}
+        {% for post in collections.gallery | limit(8) %}
           <div class="gallery-item">
             <img
               src="{{post.data.image}}"
               alt="{{post.data.title}}"
               class="gallery-img"
+              style="object-position: {{ post.data.focus or '50% 30%' }}"
               loading="lazy"
               data-full="{{post.data.image}}"
               data-title="{{post.data.title}}"
@@ -34,7 +35,7 @@
       <!-- Data yang diperlukan saja, bukan full collections -->
       <div id="gallery-data-container" style="display:none" 
         data-count="{{ collections.galleries | length }}">
-        {% for post in collections.galleries | reverse %}
+        {% for post in collections.gallery %}
           <div class="gallery-data-item"
             data-image="{{ post.data.image }}"
             loading="lazy"

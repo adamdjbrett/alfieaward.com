@@ -6,12 +6,13 @@ layout: base.njk
     <div class="inner">
       <h2 class="style2" style="text-align: center">{{title}}</h2>
        <div class="custom-gallery">
-        {% for post in collections.galleries | reverse  %}
+        {% for post in collections.gallery %}
           <div class="gallery-item">
             <img
               src="{{post.data.image}}"
               alt="{{post.data.title}}"
               class="gallery-img"
+              style="object-position: {{ post.data.focus or '50% 30%' }}"
               data-full="{{post.data.image}}"
               data-title="{{post.data.title}}"
               data-index="{{loop.index0}}"
@@ -24,7 +25,7 @@ layout: base.njk
       <!-- Data yang diperlukan saja, bukan full collections -->
       <div id="gallery-data-container" style="display:none" 
         data-count="{{ collections.galleries | length }}">
-        {% for post in collections.galleries | reverse %}
+        {% for post in collections.gallery %}
           <div class="gallery-data-item"
             data-image="{{ post.data.image }}"
             data-title="{{ post.data.title }}"

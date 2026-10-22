@@ -2,7 +2,7 @@
 info: "Dom Starsia"
 title: "Dom Starsia"
 description: 
-image: "/img/2026/dom-starsia-2-sports-information.jpeg"
+image: "/img/2026/dom-starsia-2-sports-information.webp"
 image_left_side: false
 #download:
  #show: true

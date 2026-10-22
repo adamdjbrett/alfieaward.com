@@ -9,6 +9,12 @@ export default function (eleventyConfig) {
 	eleventyConfig.addNunjucksFilter("limit", (arr, limit) =>
 		arr.slice(0, limit)
 	);
+	// Gallery: newest date first, then highest entry number (41.md, 42.md...) first
+	eleventyConfig.addCollection("gallery", (collectionApi) =>
+		collectionApi
+			.getFilteredByTag("galleries")
+			.sort((a, b) => b.date - a.date || Number(b.fileSlug) - Number(a.fileSlug))
+	);
 	eleventyConfig.addCollection("awards", (collectionApi) =>
 		collectionApi
 			.getFilteredByGlob("content/award/*.md")
@@ -43,7 +49,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
 		return (tags || []).filter(
-			(tag) => ["all", "posts", "awards","press", "galleries", "recipients"].indexOf(tag) === -1
+			(tag) => ["all", "posts", "awards","press", "galleries", "gallery", "recipients"].indexOf(tag) === -1
 		);
 	});
 }

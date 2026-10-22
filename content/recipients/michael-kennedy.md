@@ -2,7 +2,7 @@
 info: "Michael Kennedy"
 title: "Michael Kennedy"
 description: 
-image: "/img/2026/ireland-med.jpg"
+image: "/img/2026/ireland-med.webp"
 image_left_side: false
 #download:
  #show: true

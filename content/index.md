@@ -4,10 +4,22 @@ title: The Alfie Jacques Ambassador Award
 description: "Please support this new initiative to honor the legacy of the Haudenosaunee stickmaker, Alfie Jacques."
 image: /img/home/image05.webp
 announcement:
-  title: "Announcing 2026 Recipients"
+  title: Alfie Jacques Ambassador Award
+  image: /img/home/image02.webp
+  article:
+    text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
+    #show_button: false
+    #button1:
+      #text: Trophy
+      #url: "#trophy_video"
+    button2:
+      text: "Donate & Buy Tickets"
+      url: https://givebutter.com/alfaward
+hero:
+  title: "The 2026 Recipients"
   image: /img/2026.jpg
   article:
-    text: "In its third year, The Alfie Jacques Ambassador Award proudly announces that its 2026 recipients are Dom Starsia, Michael Kennedy, and Mike Kanatakeron Mitchell. Their contributions span the globe: a college coach who shaped generations of players, an international leader who has helped lacrosse broaden its international reach with integrity, and a Haudenosaunee ambassador whose presence affirms the game's living roots. Ireland photo by Tom Berry"
+    text: "In its third year, The 2026 Alfie Jacques Ambassador Award recipients were Dom Starsia, Michael Kennedy, and Mike Kanatakeron Mitchell. Their contributions span the globe: a college coach who shaped generations of players, an international leader who has helped lacrosse broaden its international reach with integrity, and a Haudenosaunee ambassador whose presence affirms the game's living roots. Ireland photo by Tom Berry"
     show_button: true
     button1:
       text: "Dom Starsia"
@@ -21,21 +33,12 @@ announcement:
       text: "Michael Kennedy"
       url:  /recipients/michael-kennedy/
       icon: /img/icon/wooden-lacrosse-sticks-crossed-shutterstock_1006053838-1080icon-bw.png
-hero:
-  title: Alfie Jacques Ambassador Award
-  image: /img/home/image02.webp
-  article:
-    text: "The Alfie Jacques Ambassador Award has been created to keep the legacy of the Onondaga Stickmaker alive, to promote the game’s sacred Indigenous roots, and to honor members of the larger community who share Alfie’s love of lacrosse and his commitment to its growth."
-    #show_button: false
-    #button1:
-      #text: Trophy
-      #url: "#video"
-    button2:
-      text: "Donate & Buy Tickets"
-      url: https://givebutter.com/alfaward
-
 video:
   section: video
+  embed: '<div style="position:relative;padding-top:56.25%;"><iframe src="https://player.mediadelivery.net/embed/786729/3e41a583-6eea-4cf3-b22a-f018d104a9d1?autoplay=true&loop=false&muted=true&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;fullscreen;" allowfullscreen="true"></iframe></div>'
+  credit: "Video credit: Justin Brooking, JustLaxMedia LLC"
+trophy_video:
+  section: trophy_video
   media: "/video/trophy.webm"
   mp4: "/video/trophy.mp4"
   ogg: "/video/trophy.ogg"

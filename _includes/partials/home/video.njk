@@ -1,44 +1,15 @@
 <div
   id="{{video.section}}"
-  data-scroll-id="trophy"
+  data-scroll-id="video"
   data-scroll-behavior="default"
   data-scroll-offset="0"
   data-scroll-speed="3"
   class="style3 container default full screen purple"
 >
-  <div class="wrapper leftside">
+  <div class="wrapper">
     <div class="inner" data-onvisible-trigger="1">
-      <h2 id="text-video-title" class="style1">{{video.info}}</h2>
-
-      <div class="award-video-container">
-        <div class="award-grid">
-          <div class="video-wrapper" style="--aspect-ratio: 4/3">
-           <!--  <iframe
-              src="{{video.media}}"
-              title="{{video.title}}"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            >
-            </iframe> -->
-<video controls style="width:100%; height:auto;" data-src="{{video.mp4}}" data-webm="{{video.media}}" data-ogg="{{video.ogg}}" loading="lazy">
-  <source data-src="{{video.mp4}}" type="video/mp4">
-  <source data-src="{{video.media}}" type="video/webm">
-  <source data-src="{{video.ogg}}" type="video/ogg">
-  Your browser does not support HTML 5 Video.
-  <a href="{{video.media}}">Download</a> the video.
-  Your Browser not support video embed.
-</video>
-          </div>
-
-          <div class="trophy-content">
-            <div class="trophy-description pd-5">
-              <h3 id="text-video-subtitle" class="style65">{{video.title}}</h3>
-             <p class="style3">{% for v in video.text %}<span class="p gede">{{v.info|markdown|safe}}</span>{% endfor %}</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="bunny-video">{{ video.embed | safe }}</div>
+      {% if video.credit %}<p class="bunny-video-credit">{{ video.credit }}</p>{% endif %}
     </div>
   </div>
 </div>

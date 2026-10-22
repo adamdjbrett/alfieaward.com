@@ -2,7 +2,7 @@
 title: Dinner Details
 description: Alfie Jacques Ambassador Award Dinner Details
 event:
-  date: "September 11, 2026"
+  date: "September 10, 2027"
   time: 05:00PM
   location:
     - info: "Bellevue Country Club"
