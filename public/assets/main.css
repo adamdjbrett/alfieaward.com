@@ -3707,16 +3707,11 @@ form .actions button:disabled {
 	padding: 1rem 0;
 }
 
-.trophy-description h3 {
-	font-family: "Bebas Neue", sans-serif;
-	font-size: 1.8rem;
+.trophy-description h2 {
 	margin-bottom: 1rem;
 }
 
 .trophy-description p {
-	font-family: "Roboto", sans-serif;
-	font-size: 0.9rem;
-	line-height: 1.6;
 	margin-bottom: 0.95rem;
 }
 

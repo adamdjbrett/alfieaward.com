@@ -35,28 +35,17 @@
         <p class="style3"><span class="p">{{hero.article.text }}</span></p>
         {% if hero.article.show_button %}
         <ul class="style1 buttons">
+          {% for b in [hero.article.button1, hero.article.button2, hero.article.button3] %}
           <li>
             <a
-              href="{{hero.article.button1.url}}"
-              class="button n01"
+              href="{{b.url}}"
+              class="button n0{{loop.index}}"
               role="button"
-              ><svg aria-labelledby="buttons06-icon-1-title">
-              <title>Arrow Right (Light)</title>
-              <use xlink:href="/assets/icons.svg#arrow-right-light"></use></svg
-            ><span class="label">{{hero.article.button1.text}}</span></a
+              ><img src="{{b.icon}}" alt="" width="24" height="24" style="object-fit:contain;flex-shrink:0;margin-right:12px;"
+              ><span class="label">{{b.text}}</span></a
             >
           </li>
-          <li>
-            <a
-              href="{{hero.article.button2.url}}"
-              class="button n02"
-              role="button"
-              ><svg aria-labelledby="buttons01-icon-2-title">
-                <title>Heart</title>
-                <use xlink:href="/assets/icons.svg#heart"></use></svg
-              ><span class="label">{{hero.article.button2.text}}</span></a
-            >
-          </li>
+          {% endfor %}
         </ul>
         {% endif %}
       </div>

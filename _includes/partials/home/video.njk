@@ -8,6 +8,7 @@
 >
   <div class="wrapper">
     <div class="inner" data-onvisible-trigger="1">
+      <h2 class="style2" style="text-align: center">{{video.title}}</h2>
       <div class="bunny-video">{{ video.embed | safe }}</div>
       {% if video.credit %}<p class="bunny-video-credit">{{ video.credit }}</p>{% endif %}
     </div>
